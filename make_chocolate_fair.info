@@ -63,7 +63,7 @@ dependencies[] = ds_extras
 dependencies[] = ds_forms
 dependencies[] = ds_ui
 ; Domain Access
-dependencies[] = domain
+;dependencies[] = domain
 ; Fields
 dependencies[] = name
 ; Location
