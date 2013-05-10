@@ -9,12 +9,12 @@ projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.22.1.tar.gz"
 
 ; include the d.o. profile base
-includes[] = "drupal-org.make"
+;includes[] = "drupal-org.make"
 
 ; include mcf profile from github
 projects[make_chocolate_fair][type] = "profile"
 projects[make_chocolate_fair][download][type] = "git"
-projects[make_chocolate_fair][download][url] = "git@github.com:heliogabal/make_chocolate_fair.git"
+projects[make_chocolate_fair][download][url] = "git@github.com:heliogabal/mcf_profile.git"
 projects[make_chocolate_fair][download][branch] = "master"
 
 ; +++++ Libraries +++++
