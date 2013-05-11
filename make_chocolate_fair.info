@@ -11,9 +11,9 @@ dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = fpa
 ; Bean
-;dependencies[] = bean
-;dependencies[] = bean_admin_ui
-;dependencies[] = bean_all
+dependencies[] = bean
+dependencies[] = bean_admin_ui
+dependencies[] = bean_all
 ; CCK
 dependencies[] = filefield_nginx_progress
 dependencies[] = location_cck
@@ -174,6 +174,9 @@ dependencies[] = workbench_media
 dependencies[] = features
 ;dependencies[] = inkota_base
 dependencies[] = inkota_petition
+
+; Development
+dependencies[] = bundle_copy
 
 ; ----------
 ; Variables

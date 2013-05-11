@@ -25,8 +25,8 @@ projects[admin_menu][subdir] = "contrib"
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
 
-;projects[bean][version] = "1.1"
-;projects[bean][subdir] = "contrib"
+projects[bean][version] = "1.1"
+projects[bean][subdir] = "contrib"
 
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
@@ -71,8 +71,10 @@ projects[inkota_petition][location] = http://features.otro-mundo.org/fserver
 projects[inkota_petition][version] = "1.0-alpha2"
 projects[inkota_petition][subdir] = "contrib"
 
-projects[name][version] = "1.8"
+projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"
+;projects[link][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
+;projects[link][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
 projects[location][version] = "3.0-alpha9"
 projects[location][subdir] = "contrib"
@@ -110,6 +112,8 @@ projects[libraries][subdir] = "contrib"
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
+projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
+
 
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
