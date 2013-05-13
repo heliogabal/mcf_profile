@@ -58,6 +58,9 @@ projects[domain][subdir] = "contrib"
 projects[features][version] = "2.0-beta2"
 projects[features][subdir] = "contrib"
 
+projects[features_extra][version] = "1.0-beta1"
+projects[features_extra][subdir] = "contrib"
+
 projects[uuid][version] = "1.0-alpha4"
 projects[uuid][subdir] = "contrib"
 
