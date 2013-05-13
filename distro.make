@@ -84,9 +84,6 @@ projects[name][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 ;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[location][version] = "3.0-alpha9"
-projects[location][subdir] = "contrib"
-
 projects[simplenews][version] = "1.0"
 projects[simplenews][subdir] = "contrib"
 

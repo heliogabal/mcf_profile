@@ -10,8 +10,8 @@ projects[admin_menu][subdir] = "contrib"
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
 
-;projects[bean][version] = "1.1"
-;projects[bean][subdir] = "contrib"
+projects[bean][version] = "1.1"
+projects[bean][subdir] = "contrib"
 
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
@@ -56,11 +56,21 @@ projects[inkota_petition][location] = http://features.otro-mundo.org/fserver
 projects[inkota_petition][version] = "1.0-alpha2"
 projects[inkota_petition][subdir] = "contrib"
 
-projects[name][version] = "1.8"
-projects[name][subdir] = "contrib"
+projects[mcf_content][type] = module
+projects[mcf_content][location] = http://features.otro-mundo.org/fserver
+projects[mcf_content][version] = "1.0-alpha1"
+projects[mcf_content][subdir] = "features"
 
-projects[location][version] = "3.0-alpha9"
-projects[location][subdir] = "contrib"
+projects[name][version] = "1.9"
+projects[name][subdir] = "contrib"
+;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
+;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
+
+;projects[location][version] = "3.0-alpha9"
+;projects[location][subdir] = "contrib"
+
+projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][subdir] = "contrib"
 
 projects[simplenews][version] = "1.0"
 projects[simplenews][subdir] = "contrib"
