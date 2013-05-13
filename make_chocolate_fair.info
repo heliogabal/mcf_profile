@@ -16,7 +16,7 @@ dependencies[] = bean_admin_ui
 dependencies[] = bean_all
 ; CCK
 dependencies[] = filefield_nginx_progress
-dependencies[] = location_cck
+;dependencies[] = location_cck
 ; Chaos tool suite
 dependencies[] = ctools
 ; Context
@@ -67,7 +67,8 @@ dependencies[] = ds_ui
 ; Fields
 ;dependencies[] = name
 ; Location
-dependencies[] = location
+;dependencies[] = location
+dependencies[] = addressfield
 ; Mail
 dependencies[] = simplenews
 dependencies[] = simplenews_rules
@@ -188,8 +189,6 @@ variables[comment_default_mode_material] = 1
 variables[comment_default_mode_webform] = 1
 variables[comment_default_per_page_material] = '50'
 variables[comment_default_per_page_webform] = '50'
-variables[comment_form_location_material] = 1
-variables[comment_form_location_webform] = 1
 variables[comment_material] = '0'
 variables[comment_preview_material] = '1'
 variables[comment_preview_webform] = '1'

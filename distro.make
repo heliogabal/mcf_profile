@@ -31,8 +31,11 @@ projects[bean][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[location][version] = "3.0-rc1"
-projects[location][subdir] = "contrib"
+;projects[location][version] = "3.0-rc1"
+;projects[location][subdir] = "contrib"
+
+projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
@@ -78,8 +81,8 @@ projects[mcf_content][subdir] = "features"
 
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"
-;projects[link][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
-;projects[link][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
+;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
+;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
 projects[location][version] = "3.0-alpha9"
 projects[location][subdir] = "contrib"
