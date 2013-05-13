@@ -25,8 +25,8 @@ projects[admin_menu][subdir] = "contrib"
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
 
-projects[bean][version] = "1.1"
-projects[bean][subdir] = "contrib"
+;projects[bean][version] = "1.1"
+;projects[bean][subdir] = "contrib"
 
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
