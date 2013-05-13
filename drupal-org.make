@@ -101,6 +101,8 @@ projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
+projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
+projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
