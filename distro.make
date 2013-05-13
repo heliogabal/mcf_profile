@@ -4,9 +4,9 @@ api = "2"
 
 ;projects[drupal][version] = "7.x"
 ;Use Omega8 core instead of Drupal core:
-projects[drupal][type] = "core"
-projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.22.1.tar.gz"
+;projects[drupal][type] = "core"
+;projects[drupal][download][type] = "get"
+;projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.22.1.tar.gz"
 
 ; include the d.o. profile base
 ;includes[] = "drupal-org.make"
@@ -118,7 +118,6 @@ projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
 projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
-
 
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
