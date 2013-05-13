@@ -174,7 +174,7 @@ dependencies[] = workbench_media
 ; Features
 dependencies[] = features
 dependencies[] = features_extra
-dependencies[] = features_extra_block
+;dependencies[] = features_extra_block
 ;dependencies[] = inkota_base
 dependencies[] = inkota_petition
 dependencies[] = mcf_content
