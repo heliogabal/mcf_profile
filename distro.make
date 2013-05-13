@@ -31,7 +31,7 @@ projects[bean][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[location][version] = "3.0-alpha9"
+projects[location][version] = "3.0-rc1"
 projects[location][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
