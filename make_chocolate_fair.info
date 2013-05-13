@@ -180,6 +180,8 @@ dependencies[] = mcf_content
 
 ; Development
 dependencies[] = bundle_copy
+dependencies[] = devel
+dependencies[] = search_krumo
 
 ; ----------
 ; Variables

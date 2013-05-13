@@ -200,6 +200,14 @@ projects[workbench][subdir] = "contrib"
 projects[workbench_media][version] = "1.1"
 projects[workbench_media][subdir] = "contrib"
 
+; +++++ Development +++++++
+
+projects[devel] = 1.3
+projects[devel][subdir] = "contrib"
+
+projects[search_krumo] = 1.5
+projects[search_krumo][subdir] = "contrib"
+
 ; +++++ Themes +++++
 
 ; andromeda
