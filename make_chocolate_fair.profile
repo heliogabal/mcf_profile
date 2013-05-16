@@ -10,8 +10,8 @@ function make_chocolate_fair_profile_details(){
   return $details;
 }
 
-if (!function_exists("system_form_install_configure_form_alter")) {
-  function system_form_install_configure_form_alter(&$form, $form_state) {
+if (!function_exists("standard_form_install_configure_form_alter")) {
+  function standard_form_install_configure_form_alter(&$form, $form_state) {
     $form['site_information']['site_name']['#default_value'] = 'Make Chocolate Fair';
     $form['site_information']['site_mail']['#default_value'] = 'rhalbmann@gmail.com';
 
