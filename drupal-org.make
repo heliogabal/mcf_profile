@@ -61,7 +61,7 @@ projects[inkota_petition][subdir] = "contrib"
 
 projects[mcf_content][type] = module
 projects[mcf_content][location] = http://features.otro-mundo.org/fserver
-projects[mcf_content][version] = "1.0-alpha1"
+projects[mcf_content][version] = "1.0-alpha2"
 projects[mcf_content][subdir] = "features"
 
 projects[name][version] = "1.9"
