@@ -182,6 +182,7 @@ dependencies[] = mcf_content
 dependencies[] = bundle_copy
 dependencies[] = devel
 dependencies[] = search_krumo
+dependencies[] = styleguide
 
 ; ----------
 ; Variables

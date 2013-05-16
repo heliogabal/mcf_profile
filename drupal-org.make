@@ -203,10 +203,13 @@ projects[workbench_media][subdir] = "contrib"
 ; +++++ Development +++++++
 
 projects[devel] = 1.3
-projects[devel][subdir] = "contrib"
+projects[devel][subdir] = "dev"
 
 projects[search_krumo] = 1.5
-projects[search_krumo][subdir] = "contrib"
+projects[search_krumo][subdir] = "dev"
+
+projects[styleguide] = 1.1
+projects[styleguide][subdir] = "dev"
 
 ; +++++ Themes +++++
 
