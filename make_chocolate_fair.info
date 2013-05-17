@@ -16,7 +16,7 @@ dependencies[] = fpa
 ;dependencies[] = bean_all
 ; CCK
 dependencies[] = filefield_nginx_progress
-;dependencies[] = location_cck
+
 ; Chaos tool suite
 dependencies[] = ctools
 ; Context
@@ -25,7 +25,7 @@ dependencies[] = context_ui
 ; Core
 dependencies[] = block
 ;dependencies[] = color
-dependencies[] = comment
+;dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = field
@@ -53,7 +53,7 @@ dependencies[] = update
 dependencies[] = user
 ; Date/Time
 dependencies[] = date
-dependencies[] = date_all_day
+;dependencies[] = date_all_day
 dependencies[] = date_api
 dependencies[] = date_popup
 dependencies[] = date_views
@@ -67,11 +67,10 @@ dependencies[] = ds_ui
 ; Fields
 ;dependencies[] = name
 ; Location
-;dependencies[] = location
 dependencies[] = addressfield
 ; Mail
 dependencies[] = simplenews
-dependencies[] = simplenews_rules
+;dependencies[] = simplenews_rules
 ; Media
 dependencies[] = file_entity
 dependencies[] = media
@@ -91,7 +90,7 @@ dependencies[] = i18n_path
 dependencies[] = i18n_redirect
 dependencies[] = i18n_select
 dependencies[] = i18n_string
-dependencies[] = i18n_sync
+;dependencies[] = i18n_sync
 dependencies[] = i18n_taxonomy
 dependencies[] = i18n_translation
 dependencies[] = i18n_user
@@ -101,7 +100,7 @@ dependencies[] = l10n_update
 dependencies[] = breakpoints
 dependencies[] = entity
 dependencies[] = entity_token
-dependencies[] = field_conditional_state
+;dependencies[] = field_conditional_state
 dependencies[] = google_fonts
 dependencies[] = libraries
 dependencies[] = module_filter
@@ -126,19 +125,19 @@ dependencies[] = picture
 ; Rules
 dependencies[] = rules
 dependencies[] = rules_admin
-dependencies[] = rules_scheduler
+;dependencies[] = rules_scheduler
 ; SEO
 dependencies[] = metatag
 dependencies[] = metatag_context
 dependencies[] = metatag_opengraph
-dependencies[] = metatag_twitter_cards
+;dependencies[] = metatag_twitter_cards
 dependencies[] = metatag_views
 ; Taxonomy
-dependencies[] = tagclouds
+;dependencies[] = tagclouds
 ; Theme Tools
-dependencies[] = delta
-dependencies[] = delta_blocks
-dependencies[] = delta_ui
+;dependencies[] = delta
+;dependencies[] = delta_blocks
+;dependencies[] = delta_ui
 dependencies[] = omega_tools
 dependencies[] = omega_ui
 ; Translation Management

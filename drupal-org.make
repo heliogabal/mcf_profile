@@ -16,9 +16,6 @@ projects[bean][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-;projects[location][version] = "3.0-alpha9"
-;projects[location][subdir] = "contrib"
-
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
@@ -96,8 +93,8 @@ projects[breakpoints][subdir] = "contrib"
 projects[entity][version] = "1.1"
 projects[entity][subdir] = "contrib"
 
-projects[field-conditional-state][version] = "1.0"
-projects[field-conditional-state][subdir] = "contrib"
+;projects[field-conditional-state][version] = "1.0"
+;projects[field-conditional-state][subdir] = "contrib"
 
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
@@ -149,11 +146,11 @@ projects[rules][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta7"
 projects[metatag][subdir] = "contrib"
 
-projects[tagclouds][version] = "1.9"
-projects[tagclouds][subdir] = "contrib"
+;projects[tagclouds][version] = "1.9"
+;projects[tagclouds][subdir] = "contrib"
 
-projects[delta][version] = "3.0-beta11"
-projects[delta][subdir] = "contrib"
+;projects[delta][version] = "3.0-beta11"
+;projects[delta][subdir] = "contrib"
 
 projects[omega_tools][version] = "3.0-rc4"
 projects[omega_tools][subdir] = "contrib"
