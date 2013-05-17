@@ -42,3 +42,41 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
     }
   }
 }
+
+function make_chocolate_fair_install_tasks($install_state) {
+  return array(on
+    'make_chocolate_fair_install_import_locales' => array(
+      'display_name' => 'Install additional languages',
+      'display' => TRUE,
+      'type' => 'batch',
+      'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
+    )
+  );
+}
+
+function make_chocolate_fair_install_import_locales(&$install_state) {
+  include_once DRUPAL_ROOT . '/includes/locale.inc';
+  include_once DRUPAL_ROOT . '/includes/iso.inc';
+  $batch = array();
+  $predefined = _locale_get_predefined_list();
+  foreach (array('nl', 'de') as $install_locale) {
+    if (!isset($predefined[$install_locale])) {
+      // Drupal does not know about this language, so we prefill its values with
+      // our best guess. The user will be able to edit afterwards.
+      locale_add_language($install_locale, $install_locale, $install_locale, LANGUAGE_LTR, '', '', TRUE, FALSE);
+    }
+    else {
+      // A known predefined language, details will be filled in properly.
+      locale_add_language($install_locale, NULL, NULL, NULL, '', '', TRUE, FALSE);
+    }
+
+    // Collect files to import for this language.
+    $batch = array_merge($batch, locale_batch_by_language($install_locale, NULL));
+
+  }
+  if (!empty($batch)) {
+      // Remember components we cover in this batch set.
+      variable_set('make_chocolate_fair_install_import_locales', $batch['#components']);
+      return $batch;
+  }
+}
