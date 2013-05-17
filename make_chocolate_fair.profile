@@ -52,6 +52,17 @@ function make_chocolate_fair_install_tasks($install_state) {
       'run' => INSTALL_TASK_RUN_IF_NOT_COMPLETED,
     )
   );
+    // Determine whether translation import tasks will need to be performed.
+  $needs_translations = count($install_state['locales']) > 1 && !empty($install_state['parameters']['locale']) && $install_state['parameters']['locale'] != 'en';
+
+  return array(
+    'make_chocolate_fair_import_translation' => array(
+      'display_name' => st('Set up translations'),
+      'display' => $needs_translations,
+      'run' => $needs_translations ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
+      'type' => 'batch',
+    ),
+  );
 }
 
 function make_chocolate_fair_install_import_locales(&$install_state) {
@@ -84,19 +95,6 @@ function make_chocolate_fair_install_import_locales(&$install_state) {
 /**
  * Implement hook_install_tasks().
  */
-function make_chocolate_fair_install_tasks($install_state) {
-  // Determine whether translation import tasks will need to be performed.
-  $needs_translations = count($install_state['locales']) > 1 && !empty($install_state['parameters']['locale']) && $install_state['parameters']['locale'] != 'en';
-
-  return array(
-    'make_chocolate_fair_import_translation' => array(
-      'display_name' => st('Set up translations'),
-      'display' => $needs_translations,
-      'run' => $needs_translations ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
-      'type' => 'batch',
-    ),
-  );
-}
 
 /**
  * Implement hook_install_tasks_alter().
