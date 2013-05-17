@@ -96,6 +96,7 @@ dependencies[] = i18n_taxonomy
 dependencies[] = i18n_translation
 dependencies[] = i18n_user
 dependencies[] = i18n_variable
+dependencies[] = l10n_update
 ; Other
 dependencies[] = breakpoints
 dependencies[] = entity
@@ -175,8 +176,8 @@ dependencies[] = workbench_media
 dependencies[] = features
 dependencies[] = fe_block
 ;dependencies[] = inkota_base
-;dependencies[] = inkota_petition
-;dependencies[] = mcf_content
+dependencies[] = inkota_petition
+dependencies[] = mcf_content
 
 ; Development
 dependencies[] = bundle_copy

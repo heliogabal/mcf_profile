@@ -293,5 +293,5 @@ function make_chocolate_fair_install() {
   // ignore any other install messages
   drupal_get_messages();
 
-  module_enable(array('mcf_content,inkota_petition'));
+  // module_enable(array('mcf_content,inkota_petition'));
 }

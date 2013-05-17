@@ -87,6 +87,9 @@ projects[entity_translation][subdir] = "contrib"
 projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
 
+projects[l10n_update][version] = "1.0-beta3"
+projects[l10n_update][subdir] = "contrib"
+
 projects[breakpoints][version] = "1.0"
 projects[breakpoints][subdir] = "contrib"
 
