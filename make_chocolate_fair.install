@@ -283,8 +283,8 @@ function make_chocolate_fair_install() {
   menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
-    'inkota_base',
-    'inkota_petition'
+    'inkota_petition',
+    'mcf_content'
   );
   features_revert($features);
   // ignore any rebuild messages
