@@ -26,6 +26,7 @@ function make_chocolate_fair_install() {
     ->condition('name', $admin_theme)
     ->execute();
   variable_set('admin_theme', $admin_theme);
+  theme_enable(array('mcf_theme,seven'));
   // activate admin theme when editing a node
   variable_set('node_admin_theme', '1');
   $blocks = array(
@@ -291,4 +292,6 @@ function make_chocolate_fair_install() {
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages
   drupal_get_messages();
+
+  module_enable(array('mcf_content,inkota_petition'));
 }

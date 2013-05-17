@@ -175,8 +175,8 @@ dependencies[] = workbench_media
 dependencies[] = features
 dependencies[] = fe_block
 ;dependencies[] = inkota_base
-dependencies[] = inkota_petition
-dependencies[] = mcf_content
+;dependencies[] = inkota_petition
+;dependencies[] = mcf_content
 
 ; Development
 dependencies[] = bundle_copy
