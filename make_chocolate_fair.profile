@@ -44,7 +44,7 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
 }
 
 function make_chocolate_fair_install_tasks($install_state) {
-  return array(on
+  return array(
     'make_chocolate_fair_install_import_locales' => array(
       'display_name' => 'Install additional languages',
       'display' => TRUE,
