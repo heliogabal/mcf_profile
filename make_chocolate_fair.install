@@ -281,8 +281,7 @@ function make_chocolate_fair_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
-  // Update the menu router information.
-  menu_rebuild();
+
   // revert features to ensure they are all installed
   $features = array(
     'inkota_petition',
@@ -293,6 +292,8 @@ function make_chocolate_fair_install() {
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages
   drupal_get_messages();
+    // Update the menu router information.
+  menu_rebuild();
 
   // module_enable(array('mcf_content,inkota_petition'));
 }

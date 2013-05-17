@@ -28,11 +28,14 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.2"
+projects[ds][version] = "2.3"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.9"
 projects[domain][subdir] = "contrib"
+
+projects[domain_variable][version] = "1.0"
+projects[domain_variable][subdir] = "contrib"
 
 projects[features][version] = "2.0-beta2"
 projects[features][subdir] = "contrib"
