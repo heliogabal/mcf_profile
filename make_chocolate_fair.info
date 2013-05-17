@@ -175,6 +175,8 @@ dependencies[] = workbench_media
 ; Features
 dependencies[] = features
 dependencies[] = fe_block
+dependencies[] = strongarm
+dependencies[] = menu_import
 ;dependencies[] = inkota_base
 dependencies[] = inkota_petition
 dependencies[] = mcf_content

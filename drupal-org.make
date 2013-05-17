@@ -49,6 +49,12 @@ projects[uuid][subdir] = "contrib"
 projects[uuid_features][version] = "1.0-alpha3"
 projects[uuid_features][subdir] = "contrib"
 
+projects[strongarm][version] = "2.0"
+projects[strongarm][subdir] = "dev"
+
+projects[menu_import][version] = "1.5"
+projects[menu_import][subdir] = dev
+
 ;projects[inkota_base][type] = module
 ;projects[inkota_base][location] = http://features.otro-mundo.org/fserver
 ;projects[inkota_base][version] = "1.0-alpha1"
