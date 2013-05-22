@@ -270,7 +270,20 @@ projects[rubik][subdir] = "contrib"
 ;projects[tine][version] = "2.x-dev"
 ;projects[tine][subdir] = "contrib"
 
-translations[] = de,et,cs,lt,lv,lu,nl,fi,hu,it,pl,ro,sk,sl
+translations[] = de
+translations[] = et
+translations[] = cs
+translations[] = lt
+translations[] = lv
+translations[] = lu
+translations[] = nl
+translations[] = fi
+translations[] = hu
+translations[] = it
+translations[] = pl
+translations[] = ro
+translations[] = sk
+translations[] = sl
 
 ; +++++ Libraries +++++
 
