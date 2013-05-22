@@ -270,6 +270,8 @@ projects[rubik][subdir] = "contrib"
 ;projects[tine][version] = "2.x-dev"
 ;projects[tine][subdir] = "contrib"
 
+translations[] = de,et,cs,lt,lv,lu,nl,fi,hu,it,pl,ro,sk,sl
+
 ; +++++ Libraries +++++
 
 ; ColorBox
