@@ -37,6 +37,9 @@ projects[domain][subdir] = "contrib"
 projects[domain_variable][version] = "1.0"
 projects[domain_variable][subdir] = "contrib"
 
+projects[domain_blocks][version] = "3.0-beta1"
+projects[domain_blocks][subdir] = "contrib"
+
 projects[features][version] = "2.0-beta2"
 projects[features][subdir] = "contrib"
 
@@ -70,6 +73,11 @@ projects[inkota_petition][subdir] = "contrib"
 ;projects[mcf_content][version] = "1.0-alpha4"
 ;projects[mcf_content][subdir] = "features"
 ;projects[mcf_content][md5] = "5e80d223bc3475386663ef813d56ebde"
+
+projects[mcf_domain_i18n][type] = module
+projects[mcf_domain_i18n][location] = "http://features.otro-mundo.org/fserver"
+projects[mcf_domain_i18n][version] = "1.0-alpha1"
+projects[mcf_domain_i18n][subdir] = "features"
 
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"

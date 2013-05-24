@@ -82,20 +82,20 @@ dependencies[] = media_youtube
 ;dependencies[] = entity_translation_i18n_menu
 ;dependencies[] = entity_translation_upgrade
 ; Multilingual - Internationalization
-;dependencies[] = i18n
+dependencies[] = i18n
 ;dependencies[] = i18n_block
 ;dependencies[] = i18n_field
-;dependencies[] = i18n_menu
+dependencies[] = i18n_menu
 ;dependencies[] = i18n_node
-;dependencies[] = i18n_path
+dependencies[] = i18n_path
 ;dependencies[] = i18n_redirect
 ;dependencies[] = i18n_select
-;dependencies[] = i18n_string
+dependencies[] = i18n_string
 ;dependencies[] = i18n_sync
 ;dependencies[] = i18n_taxonomy
-;dependencies[] = i18n_translation
-;dependencies[] = i18n_user
-;dependencies[] = i18n_variable
+dependencies[] = i18n_translation
+dependencies[] = i18n_user
+dependencies[] = i18n_variable
 dependencies[] = l10n_update
 ; Other
 dependencies[] = breakpoints
