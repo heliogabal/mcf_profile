@@ -70,7 +70,7 @@ function make_chocolate_fair_install_import_locales(&$install_state) {
   include_once DRUPAL_ROOT . '/includes/iso.inc';
   $batch = array();
   $predefined = _locale_get_predefined_list();
-  foreach (array('de','et','cs','be','fi','hu','it','lt','lb','lv','nl','pl','ro','sl','sk') as $install_locale) {
+  foreach (array('de','et','cs','fr',fi','hu','it','lt','lb','lv','nl','pl','ro','sl','sk') as $install_locale) {
     if (!isset($predefined[$install_locale])) {
       // Drupal does not know about this language, so we prefill its values with
       // our best guess. The user will be able to edit afterwards.
