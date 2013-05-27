@@ -107,6 +107,7 @@ dependencies[] = google_fonts
 dependencies[] = libraries
 dependencies[] = module_filter
 dependencies[] = pathauto
+dependencies[] = title
 dependencies[] = mpac
 dependencies[] = pgbar
 ;dependencies[] = pgbar_block
