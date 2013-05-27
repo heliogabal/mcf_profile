@@ -134,6 +134,9 @@ projects[module_filter][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
+projects[mpac][version] = "1.2"
+projects[mpac][subdir] = "contrib"
+
 projects[pgbar][version] = "1.0"
 projects[pgbar][subdir] = "contrib"
 
