@@ -79,8 +79,8 @@ dependencies[] = media
 dependencies[] = media_internet
 dependencies[] = media_youtube
 ; Multilingual - Entity Translation
-;dependencies[] = entity_translation
-;dependencies[] = entity_translation_i18n_menu
+dependencies[] = entity_translation
+dependencies[] = entity_translation_i18n_menu
 ;dependencies[] = entity_translation_upgrade
 ; Multilingual - Internationalization
 dependencies[] = i18n
