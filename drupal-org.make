@@ -51,8 +51,8 @@ projects[domain_menu_block][subdir] = "contrib"
 
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
-projects[features][patch][] = https://drupal.org/files/1931512-menu_link-extra-attributes.patch
-projects[features][patch][] = https://drupal.org/files/1931512-menu_link-query-tag.patch
+projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
+projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
 projects[features_translations][version] = 1.0-beta1
 projects[features_translations][subdir] = contrib
@@ -125,7 +125,7 @@ projects[entity_menu_links][subdir] =contrib
 projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
-projects[i18n][patch][] = "https://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
+projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
 
 projects[l10n_update][version] = "1.0-beta3"
 projects[l10n_update][subdir] = "contrib"
