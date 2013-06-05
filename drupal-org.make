@@ -31,10 +31,10 @@ projects[profiler_builder][subdir] = "contrib"
 projects[ds][version] = "2.3"
 projects[ds][subdir] = "contrib"
 
-projects[domain][version] = "3.9"
+projects[domain][version] = "3.10"
 projects[domain][subdir] = "contrib"
 
-projects[domain_locale][version] = "1.0-beta2"
+projects[domain_locale][version] = "1.0-beta3"
 projects[domain_locale][subdir] = "contrib"
 
 projects[domain_variable][version] = "1.0"
@@ -167,7 +167,7 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.1"
 projects[robotstxt][subdir] = "contrib"
 
-projects[socialshareprivacy][version] = "1.10"
+projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
 projects[token][version] = "1.5"
@@ -227,7 +227,7 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.19"
 projects[webform][subdir] = "contrib"
 
 projects[webform_confirm_email][version] = "1.x-dev"
