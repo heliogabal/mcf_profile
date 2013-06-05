@@ -64,6 +64,7 @@ dependencies[] = ds_forms
 dependencies[] = ds_ui
 ; Domain Access
 ;dependencies[] = domain
+;dependencies[] = domain_path
 ;dependencies[] = domain_locale
 ;dependencies[] = domain_variable
 ; Fields
