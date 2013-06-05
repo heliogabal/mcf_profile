@@ -82,7 +82,7 @@ dependencies[] = media_youtube
 ; Multilingual - Entity Translation
 dependencies[] = entity_translation
 dependencies[] = entity_translation_i18n_menu
-dependencies[] = entity_menu_links
+
 ;dependencies[] = entity_translation_upgrade
 ; Multilingual - Internationalization
 dependencies[] = i18n
@@ -180,12 +180,16 @@ dependencies[] = workbench_media
 ; Features
 dependencies[] = features
 dependencies[] = fe_block
-dependencies[] = features_translations
 dependencies[] = strongarm
 dependencies[] = menu_import
 ;dependencies[] = inkota_base
 dependencies[] = inkota_petition
 ;dependencies[] = mcf_content
+
+
+; http://thereisamoduleforthat.com/content/features-and-i18n-configuration-management-part-2-menu-item-madness
+dependencies[] = features_translations
+dependencies[] = entity_menu_links
 dependencies[] = mcf_hacks
 
 ; Development
