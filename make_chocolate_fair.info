@@ -188,9 +188,9 @@ dependencies[] = inkota_petition
 
 
 ; http://thereisamoduleforthat.com/content/features-and-i18n-configuration-management-part-2-menu-item-madness
-dependencies[] = features_translations
-dependencies[] = entity_menu_links
-dependencies[] = mcf_hacks
+;dependencies[] = features_translations
+;dependencies[] = entity_menu_links
+;dependencies[] = mcf_hacks
 
 ; Development
 dependencies[] = bundle_copy
