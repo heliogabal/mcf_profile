@@ -34,6 +34,9 @@ projects[ds][subdir] = "contrib"
 projects[domain][version] = "3.10"
 projects[domain][subdir] = "contrib"
 
+projects[domain_path][version] = "1.0-beta4"
+projects[domain_path][subdir] = "contrib"
+
 projects[domain_locale][version] = "1.0-beta3"
 projects[domain_locale][subdir] = "contrib"
 
