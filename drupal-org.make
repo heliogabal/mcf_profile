@@ -34,7 +34,7 @@ projects[ds][subdir] = "contrib"
 projects[domain][version] = "3.9"
 projects[domain][subdir] = "contrib"
 
-projects[domain_locale][version] = "1.0-beta1"
+projects[domain_locale][version] = "1.0-beta2"
 projects[domain_locale][subdir] = "contrib"
 
 projects[domain_variable][version] = "1.0"
@@ -48,6 +48,10 @@ projects[domain_menu_block][subdir] = "contrib"
 
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
+projects[features][patch][] = https://drupal.org/files/1931512-menu_link-query-tag.patch
+
+projects[features_translations][version] = 1.0-beta1
+projects[features_translations][subdir] = contrib
 
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
@@ -85,6 +89,11 @@ projects[mcf_domain_i18n][location] = "http://features.otro-mundo.org/fserver"
 projects[mcf_domain_i18n][version] = "1.0-alpha1"
 projects[mcf_domain_i18n][subdir] = "features"
 
+projects[mcf_hacks][type] = module
+projects[mcf_hacks][location] = "http://features.otro-mundo.org/fserver"
+projects[mcf_hacks][version] = "1.0-alpha1"
+projects[mcf_hacks][subdir] = "features"
+
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
@@ -105,8 +114,14 @@ projects[media_youtube][subdir] = "contrib"
 projects[entity_translation][version] = "1.0-beta2"
 projects[entity_translation][subdir] = "contrib"
 
+projects[entity_menu_links][version] = 1.0-alpha1
+projects[entity_menu_links][subdir] =contrib
+
+
 projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
+; https://drupal.org/node/1933690
+projects[i18n][patch][] = "https://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
 
 projects[l10n_update][version] = "1.0-beta3"
 projects[l10n_update][subdir] = "contrib"
@@ -132,7 +147,7 @@ projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_fie
 projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
 projects[title][version] = 1.0-alpha7
-projects[title][subdir] "contrib"
+projects[title][subdir] = "contrib"
 
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
