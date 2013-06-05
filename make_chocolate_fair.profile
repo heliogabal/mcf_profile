@@ -132,6 +132,7 @@ function make_chocolate_fair_import_translation(&$install_state) {
 }
 
  // Für Domain Access Modul
+ // http://sachachua.com/blog/2008/06/drupal-adding-lines-to-settingsphp-in-an-installation-profile-2/
 function make_chocolate_fair_profile_final() {
     // Add the following to the end of settings.php
     $file = fopen("sites/default/settings.php", "a");

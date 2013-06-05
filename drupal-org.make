@@ -95,7 +95,7 @@ projects[mcf_domain_i18n][subdir] = "features"
 projects[mcf_hacks][type] = module
 projects[mcf_hacks][location] = "http://features.otro-mundo.org/fserver"
 projects[mcf_hacks][version] = "1.0-alpha1"
-projects[mcf_hacks][subdir] = "features"
+projects[mcf_hacks][subdir] = "custom"
 
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"
