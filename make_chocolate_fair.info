@@ -185,6 +185,7 @@ dependencies[] = menu_import
 ;dependencies[] = inkota_base
 dependencies[] = inkota_petition
 ;dependencies[] = mcf_content
+dependencies[] = mcf_hacks
 
 ; Development
 dependencies[] = bundle_copy
