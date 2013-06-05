@@ -127,6 +127,19 @@ function make_chocolate_fair_import_translation(&$install_state) {
 
   module_load_include('batch.inc', 'l10n_update');
   $updates = _l10n_update_prepare_updates($updates, NULL, array());
-  $batch = l10n_update_batch_multiple($updates, LOCALE_IMPORT_KEEP);
-  return $batch;
+  $batches = l10n_update_batch_multiple($updates, LOCALE_IMPORT_KEEP);
+  return $batches;
+}
+
+ // Für Domain Access Modul
+function make_chocolate_fair_profile_final() {
+    // Add the following to the end of settings.php
+    $file = fopen("sites/default/settings.php", "a");
+    if ($file) {
+      fputs($file, "\$cookie_domain = '.mcf.local';\n");
+      fputs($file, "include DRUPAL_ROOT . '/profiles/make_chocolate_fair/modules/contrib/domain/settings.inc';\n");
+      fclose($file);
+    } else {
+      drupal_set_message("Can't add domain-related lines to sites/default/settings.php");
+    }
 }
