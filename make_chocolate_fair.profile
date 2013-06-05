@@ -139,6 +139,6 @@ function make_chocolate_fair_import_translation(&$install_state) {
 
   module_load_include('batch.inc', 'l10n_update');
   $updates = _l10n_update_prepare_updates($updates, NULL, array());
-  $batches = l10n_update_batch_multiple($updates, LOCALE_IMPORT_KEEP);
-  return $batches;
+  $batch = l10n_update_batch_multiple($updates, LOCALE_IMPORT_KEEP);
+  return $batch;
 }
