@@ -51,8 +51,8 @@ projects[domain_menu_block][subdir] = "contrib"
 
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
-projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
-projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
+;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
+;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
 projects[features_translations][version] = 1.0-beta1
 projects[features_translations][subdir] = contrib
