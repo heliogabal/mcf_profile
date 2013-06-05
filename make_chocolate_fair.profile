@@ -109,14 +109,14 @@ function make_chocolate_fair_install_tasks_alter(&$tasks, $install_state) {
    // Für Domain Access Modul
  // http://sachachua.com/blog/2008/06/drupal-adding-lines-to-settingsphp-in-an-installation-profile-2/
     // Add the following to the end of settings.php
-    $file = fopen("sites/default/settings.php", "a");
+    /* $file = fopen("sites/default/settings.php", "a");
     if ($file) {
       fputs($file, "\$cookie_domain = '.mcf.local';\n");
       fputs($file, "include DRUPAL_ROOT . '/profiles/make_chocolate_fair/modules/contrib/domain/settings.inc';\n");
       fclose($file);
     } else {
       drupal_set_message("Can't add domain-related lines to sites/default/settings.php");
-    }
+    }*/
 }
 
 /**
