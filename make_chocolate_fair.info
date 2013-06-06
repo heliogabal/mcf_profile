@@ -121,6 +121,7 @@ dependencies[] = transliteration
 dependencies[] = web_widgets
 dependencies[] = link
 dependencies[] = uuid
+dependencies[] = uuid_path
 dependencies[] = node_export
 dependencies[] = node_export_features
 
