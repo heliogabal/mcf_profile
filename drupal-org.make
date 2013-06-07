@@ -91,15 +91,20 @@ projects[inkota_petition][subdir] = "contrib"
 ;projects[mcf_content][subdir] = "features"
 ;projects[mcf_content][md5] = "5e80d223bc3475386663ef813d56ebde"
 
-projects[mcf_domain_i18n][type] = module
-projects[mcf_domain_i18n][location] = "http://features.otro-mundo.org/fserver"
-projects[mcf_domain_i18n][version] = "1.0-alpha1"
-projects[mcf_domain_i18n][subdir] = "features"
+projects[mcf_everything][type] = module
+projects[mcf_everything][location] = http://features.otro-mundo.org/fserver
+projects[mcf_everything][version] = "1.0-alpha1"
+projects[mcf_everything][subdir] = "features"
 
-projects[mcf_hacks][type] = module
-projects[mcf_hacks][location] = "http://features.otro-mundo.org/fserver"
-projects[mcf_hacks][version] = "1.0-alpha1"
-projects[mcf_hacks][subdir] = "custom"
+;projects[mcf_domain_i18n][type] = module
+;projects[mcf_domain_i18n][location] = "http://features.otro-mundo.org/fserver"
+;projects[mcf_domain_i18n][version] = "1.0-alpha1"
+;projects[mcf_domain_i18n][subdir] = "features"
+
+;projects[mcf_hacks][type] = module
+;projects[mcf_hacks][location] = "http://features.otro-mundo.org/fserver"
+;projects[mcf_hacks][version] = "1.0-alpha1"
+;projects[mcf_hacks][subdir] = "custom"
 
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"

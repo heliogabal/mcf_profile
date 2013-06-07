@@ -83,10 +83,15 @@ projects[inkota_petition][location] = http://features.otro-mundo.org/fserver
 projects[inkota_petition][version] = "1.0-alpha2"
 projects[inkota_petition][subdir] = "features"
 
-projects[mcf_content][type] = module
-projects[mcf_content][location] = http://features.otro-mundo.org/fserver
-projects[mcf_content][version] = "1.0-alpha1"
-projects[mcf_content][subdir] = "features"
+;projects[mcf_content][type] = module
+;projects[mcf_content][location] = http://features.otro-mundo.org/fserver
+;projects[mcf_content][version] = "1.0-alpha1"
+;projects[mcf_content][subdir] = "features"
+
+projects[mcf_everything][type] = module
+projects[mcf_everything][location] = http://features.otro-mundo.org/fserver
+projects[mcf_everything][version] = "1.0-alpha1"
+projects[mcf_everything][subdir] = "features"
 
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"
