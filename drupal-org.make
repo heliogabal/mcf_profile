@@ -2,19 +2,30 @@
 core = "7.x"
 api = "2"
 
+; +++++ Disabled Omega8 Modules ++++++
+
+;projects[devel] = 1.3
+;projects[devel][subdir] = "dev"
+
+;projects[filefield_nginx_progress][version] = "2.3"
+;projects[filefield_nginx_progress][subdir] = "contrib"
+
+;projects[fpa][version] = "2.2"
+;projects[fpa][subdir] = "contrib"
+
+;projects[l10n_update][version] = "1.0-beta3"
+;projects[l10n_update][subdir] = "contrib"
+
+;projects[robotstxt][version] = "1.1"
+;projects[robotstxt][subdir] = "contrib"
+
 ; +++++ Modules +++++
 
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
-projects[fpa][version] = "2.2"
-projects[fpa][subdir] = "contrib"
-
 projects[bean][version] = "1.1"
 projects[bean][subdir] = "contrib"
-
-projects[filefield_nginx_progress][version] = "2.3"
-projects[filefield_nginx_progress][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
@@ -129,14 +140,10 @@ projects[entity_translation][subdir] = "contrib"
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] =contrib
 
-
 projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
-
-projects[l10n_update][version] = "1.0-beta3"
-projects[l10n_update][subdir] = "contrib"
 
 projects[breakpoints][version] = "1.0"
 projects[breakpoints][subdir] = "contrib"
@@ -175,9 +182,6 @@ projects[pgbar][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
-
-projects[robotstxt][version] = "1.1"
-projects[robotstxt][subdir] = "contrib"
 
 ;projects[socialshareprivacy][version] = "1.11"
 ;projects[socialshareprivacy][subdir] = "contrib"
@@ -262,9 +266,6 @@ projects[workbench_media][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
-projects[devel] = 1.3
-projects[devel][subdir] = "dev"
-
 projects[search_krumo] = 1.5
 projects[search_krumo][subdir] = "dev"
 
@@ -302,9 +303,9 @@ projects[omega][subdir] = "contrib"
 ;projects[responsive_blog][subdir] = "contrib"
 
 ; rubik
-projects[rubik][type] = "theme"
-projects[rubik][version] = "4.0-beta8"
-projects[rubik][subdir] = "contrib"
+;projects[rubik][type] = "theme"
+;projects[rubik][version] = "4.0-beta8"
+;projects[rubik][subdir] = "contrib"
 
 ; shiny
 ;projects[shiny][type] = "theme"

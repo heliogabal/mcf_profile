@@ -6,6 +6,9 @@ core = "7.x"
 ; ----------
 ; Dependencies
 ; ----------
+
+;Later for Omega8
+
 ; Administration
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
@@ -14,8 +17,8 @@ dependencies[] = fpa
 ;dependencies[] = bean
 ;dependencies[] = bean_admin_ui
 ;dependencies[] = bean_all
-; CCK
-dependencies[] = filefield_nginx_progress
+;dependencies[] = filefield_nginx_progress
+;dependencies[] = l10n_update
 
 ; Chaos tool suite
 dependencies[] = ctools
@@ -99,7 +102,7 @@ dependencies[] = i18n_string
 dependencies[] = i18n_translation
 dependencies[] = i18n_user
 dependencies[] = i18n_variable
-dependencies[] = l10n_update
+
 ; Other
 dependencies[] = breakpoints
 dependencies[] = entity
