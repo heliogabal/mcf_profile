@@ -212,8 +212,8 @@ projects[metatag][subdir] = "contrib"
 ;projects[delta][version] = "3.0-beta11"
 ;projects[delta][subdir] = "contrib"
 
-projects[omega_tools][version] = "3.0-rc4"
-projects[omega_tools][subdir] = "contrib"
+;projects[omega_tools][version] = "3.0-rc4"
+;projects[omega_tools][subdir] = "contrib"
 
 projects[omega_ui][version] = "2.x-dev"
 projects[omega_ui][subdir] = "contrib"

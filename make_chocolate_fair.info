@@ -146,7 +146,7 @@ dependencies[] = metatag_views
 ;dependencies[] = delta
 ;dependencies[] = delta_blocks
 ;dependencies[] = delta_ui
-dependencies[] = omega_tools
+;dependencies[] = omega_tools
 dependencies[] = omega_ui
 ; Translation Management
 ;dependencies[] = tmgmt
