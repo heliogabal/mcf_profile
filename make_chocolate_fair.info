@@ -8,17 +8,23 @@ core = "7.x"
 ; ----------
 
 ;Later for Omega8
+;dependencies[] = devel
+;dependencies[] = entitycache
+;dependencies[] = filefield_nginx_progress
+;dependencies[] = fpa
+;dependencies[] = l10n_update
+;dependencies[] = robotstxt
+
 
 ; Administration
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
-dependencies[] = fpa
+
 ; Bean
 ;dependencies[] = bean
 ;dependencies[] = bean_admin_ui
 ;dependencies[] = bean_all
-;dependencies[] = filefield_nginx_progress
-;dependencies[] = l10n_update
+
 
 ; Chaos tool suite
 dependencies[] = ctools
@@ -117,7 +123,6 @@ dependencies[] = mpac
 dependencies[] = pgbar
 ;dependencies[] = pgbar_block
 dependencies[] = redirect
-dependencies[] = robotstxt
 ;dependencies[] = socialshareprivacy
 dependencies[] = follow
 dependencies[] = token
@@ -129,8 +134,7 @@ dependencies[] = uuid_path
 dependencies[] = node_export
 dependencies[] = node_export_features
 
-; Performance and scalability
-dependencies[] = entitycache
+
 ; Picture
 dependencies[] = picture
 ; Rules
@@ -200,7 +204,6 @@ dependencies[] = inkota_petition
 
 ; Development
 dependencies[] = bundle_copy
-dependencies[] = devel
 dependencies[] = search_krumo
 dependencies[] = styleguide
 dependencies[] = diff

@@ -7,6 +7,9 @@ api = "2"
 ;projects[devel] = 1.3
 ;projects[devel][subdir] = "dev"
 
+;projects[entitycache][version] = "1.x-dev"
+;projects[entitycache][subdir] = "contrib"
+
 ;projects[filefield_nginx_progress][version] = "2.3"
 ;projects[filefield_nginx_progress][subdir] = "contrib"
 
@@ -197,9 +200,6 @@ projects[transliteration][subdir] = "contrib"
 
 projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
-
-projects[entitycache][version] = "1.x-dev"
-projects[entitycache][subdir] = "contrib"
 
 projects[picture][version] = "1.1"
 projects[picture][subdir] = "contrib"
