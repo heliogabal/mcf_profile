@@ -1,6 +1,6 @@
 ; Packaging information for make_chocolate_fair
 name = "Make Chocolate Fair"
-old_short_name = default
+old_short_name = standard
 description = "Europäische Kampagne für faire Schokolade"
 ;exclusive = "1"
 core = "7.x"
