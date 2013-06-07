@@ -322,20 +322,20 @@ projects[omega][subdir] = "contrib"
 ;projects[tine][version] = "2.x-dev"
 ;projects[tine][subdir] = "contrib"
 
-translations[] = de
-translations[] = et
-translations[] = cs
-translations[] = lt
-translations[] = lv
+;translations[] = de
+;translations[] = et
+;translations[] = cs
+;translations[] = lt
+;translations[] = lv
 ;translations[] = lu
-translations[] = nl
-translations[] = fi
-translations[] = hu
-translations[] = it
-translations[] = pl
-translations[] = ro
-translations[] = sk
-translations[] = sl
+;translations[] = nl
+;translations[] = fi
+;translations[] = hu
+;translations[] = it
+;translations[] = pl
+;translations[] = ro
+;translations[] = sk
+;translations[] = sl
 
 ; +++++ Libraries +++++
 
