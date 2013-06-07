@@ -52,10 +52,10 @@ projects[profiler_builder][subdir] = "contrib"
 projects[ds][version] = "2.2"
 projects[ds][subdir] = "contrib"
 
-projects[domain][version] = "3.9"
+projects[domain][version] = "3.10"
 projects[domain][subdir] = "contrib"
 
-projects[domain_locale][version] = "1.0-beta1"
+projects[domain_locale][version] = "1.0-beta3"
 projects[domain_locale][subdir] = "contrib"
 
 projects[features][version] = "2.0-beta2"
