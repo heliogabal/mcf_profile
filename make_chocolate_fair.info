@@ -115,7 +115,8 @@ dependencies[] = pgbar
 ;dependencies[] = pgbar_block
 dependencies[] = redirect
 dependencies[] = robotstxt
-dependencies[] = socialshareprivacy
+;dependencies[] = socialshareprivacy
+dependencies[] = follow
 dependencies[] = token
 dependencies[] = transliteration
 dependencies[] = web_widgets
@@ -198,4 +199,5 @@ dependencies[] = bundle_copy
 dependencies[] = devel
 dependencies[] = search_krumo
 dependencies[] = styleguide
+depwendencies[] = diff
 

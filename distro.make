@@ -64,6 +64,9 @@ projects[features][subdir] = "contrib"
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
 
+projects[diff][version] = 3.2
+projects[diff][subdir] = contrib
+
 projects[uuid][version] = "1.0-alpha4"
 projects[uuid][subdir] = "contrib"
 
@@ -122,8 +125,8 @@ projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
-projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
-projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
+;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
+;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
 projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
@@ -140,8 +143,11 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.1"
 projects[robotstxt][subdir] = "contrib"
 
-projects[socialshareprivacy][version] = "1.10"
-projects[socialshareprivacy][subdir] = "contrib"
+;projects[socialshareprivacy][version] = "1.10"
+;projects[socialshareprivacy][subdir] = "contrib"
+
+projects[follow][version] = "2.0-alpha1"
+projects[follow][subdir] = "contrib"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"

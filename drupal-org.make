@@ -54,6 +54,9 @@ projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
+projects[diff][version] = 3.2
+projects[diff][subdir] = contrib
+
 projects[features_translations][version] = 1.0-beta1
 projects[features_translations][subdir] = contrib
 
@@ -171,8 +174,11 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.1"
 projects[robotstxt][subdir] = "contrib"
 
-projects[socialshareprivacy][version] = "1.11"
-projects[socialshareprivacy][subdir] = "contrib"
+;projects[socialshareprivacy][version] = "1.11"
+;projects[socialshareprivacy][subdir] = "contrib"
+
+projects[follow][version] = "2.0-alpha1"
+projects[follow][subdir] = "contrib"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
