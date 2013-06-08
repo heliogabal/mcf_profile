@@ -129,7 +129,6 @@ projects[entity_translation][subdir] = "contrib"
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] =contrib
 
-
 projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
@@ -137,6 +136,7 @@ projects[i18n][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.0-beta3"
 projects[l10n_update][subdir] = "contrib"
+projects[l10n_update][patch][] = "https://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
 projects[breakpoints][version] = "1.0"
 projects[breakpoints][subdir] = "contrib"

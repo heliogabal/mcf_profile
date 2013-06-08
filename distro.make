@@ -17,19 +17,27 @@ api = "2"
 ;projects[make_chocolate_fair][download][url] = "git@github.com:heliogabal/mcf_profile.git"
 ;projects[make_chocolate_fair][download][branch] = "master"
 
+; +++++ Disabled Omega8 Modules +++++
+
+;projects[entitycache][version] = "1.x-dev"
+;projects[entitycache][subdir] = "contrib"
+
+;projects[fpa][version] = "2.2"
+;projects[fpa][subdir] = "contrib"
+
+;projects[filefield_nginx_progress][version] = "2.3"
+;projects[filefield_nginx_progress][subdir] = "contrib"
+
+;projects[robotstxt][version] = "1.1"
+;projects[robotstxt][subdir] = "contrib"
+
 ; +++++ Modules +++++
 
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
-projects[fpa][version] = "2.2"
-projects[fpa][subdir] = "contrib"
-
 projects[bean][version] = "1.1"
 projects[bean][subdir] = "contrib"
-
-projects[filefield_nginx_progress][version] = "2.3"
-projects[filefield_nginx_progress][subdir] = "contrib"
 
 ;projects[location][version] = "3.0-rc1"
 ;projects[location][subdir] = "contrib"
@@ -145,9 +153,6 @@ projects[pgbar][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
 
-projects[robotstxt][version] = "1.1"
-projects[robotstxt][subdir] = "contrib"
-
 ;projects[socialshareprivacy][version] = "1.10"
 ;projects[socialshareprivacy][subdir] = "contrib"
 
@@ -162,9 +167,6 @@ projects[transliteration][subdir] = "contrib"
 
 projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
-
-projects[entitycache][version] = "1.x-dev"
-projects[entitycache][subdir] = "contrib"
 
 projects[picture][version] = "1.1"
 projects[picture][subdir] = "contrib"
