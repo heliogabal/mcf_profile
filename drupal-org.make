@@ -156,6 +156,9 @@ projects[entity][subdir] = "contrib"
 ;projects[field-conditional-state][version] = "1.0"
 ;projects[field-conditional-state][subdir] = "contrib"
 
+projects[globalredirect][version] = "1.5"
+projects[globalredirect][subdir] = "contrib"
+
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
 
@@ -247,6 +250,9 @@ projects[linkit][subdir] = "contrib"
 
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
+
+projects[image_resize_filter][version] = "1.13"
+projects[image_resize_filter][subdir] = "contrib"
 
 projects[readmorecontrol][version] = "1.0"
 projects[readmorecontrol][subdir] = "contrib"
