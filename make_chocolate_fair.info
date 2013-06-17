@@ -67,6 +67,10 @@ dependencies[] = domain
 ;dependencies[] = domain_path
 dependencies[] = domain_locale
 dependencies[] = domain_variable
+dependencies[] = domain_navigation
+dependencies[] = domain_content
+dependencies[] = domain_blocks
+dependencies[] = domain_conf
 
 ; Fields
 ;dependencies[] = name
@@ -126,10 +130,18 @@ dependencies[] = uuid
 dependencies[] = uuid_path
 dependencies[] = node_export
 dependencies[] = node_export_features
+dependencies[] = colorbox
+dependencies[] = colorbox_node
 
 ; Performance and scalability
 dependencies[] = entitycache
 dependencies[] = advagg
+dependencies[] = advagg_bundler
+dependencies[] = advagg_css_cdn
+dependencies[] = advagg_js_cdn
+dependencies[] = advagg_css_compress
+dependencies[] = advagg_js_compress
+
 ; Picture
 dependencies[] = picture
 ; Rules
@@ -165,6 +177,8 @@ dependencies[] = omega_ui
 ; User interface
 dependencies[] = addanother
 dependencies[] = wysiwyg
+dependencies[] = linkit
+dependencies[] = insert
 ; Variable
 dependencies[] = variable
 dependencies[] = variable_realm
@@ -198,9 +212,9 @@ dependencies[] = inkota_petition
 ;dependencies[] = mcf_hacks
 
 ; Development
-dependencies[] = bundle_copy
-dependencies[] = devel
-dependencies[] = search_krumo
-dependencies[] = styleguide
+;dependencies[] = bundle_copy
+;dependencies[] = devel
+;dependencies[] = search_krumo
+;dependencies[] = styleguide
 dependencies[] = diff
 

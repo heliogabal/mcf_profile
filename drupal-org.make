@@ -19,6 +19,12 @@ projects[bean][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
+projects[colorbox][version] = "2.4"
+projects[colorbox][subdir] = "contrib"
+
+projects[colorbox_node][version] = "3.0"
+projects[colorbox_node][subdir] = "contrib"
+
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
@@ -236,6 +242,15 @@ projects[bundle_copy][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
+projects[linkit][version] = "2.6"
+projects[linkit][subdir] = "contrib"
+
+projects[insert][version] = "1.3"
+projects[insert][subdir] = "contrib"
+
+projects[readmorecontrol][version] = "1.0"
+projects[readmorecontrol][subdir] = "contrib"
+
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
 
@@ -342,11 +357,11 @@ translations[] = sl
 ; +++++ Libraries +++++
 
 ; ColorBox
-;libraries[colorbox][directory_name] = "colorbox"
-;libraries[colorbox][type] = "library"
-;libraries[colorbox][destination] = "libraries"
-;libraries[colorbox][download][type] = "get"
-;libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][type] = "library"
+libraries[colorbox][destination] = "libraries"
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
 
 ; CKEditor
 libraries[ckeditor][directory_name] = "ckeditor"
