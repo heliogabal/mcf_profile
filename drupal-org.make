@@ -4,13 +4,16 @@ api = "2"
 
 ; +++++ Modules +++++
 
+projects[advagg][version] = "2.0-beta1"
+projects[advagg][subdir] = "contrib"
+
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
 
-projects[bean][version] = "1.1"
+projects[bean][version] = "1.2"
 projects[bean][subdir] = "contrib"
 
 projects[filefield_nginx_progress][version] = "2.3"
@@ -28,7 +31,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.3"
+projects[ds][version] = "2.4"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.10"
@@ -138,7 +141,7 @@ projects[l10n_update][version] = "1.0-beta3"
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][patch][] = "https://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
-projects[breakpoints][version] = "1.0"
+projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
 
 projects[entity][version] = "1.1"
@@ -285,7 +288,7 @@ projects[styleguide][subdir] = "dev"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.0-beta3"
+projects[omega][version] = "4.0-beta4"
 projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"

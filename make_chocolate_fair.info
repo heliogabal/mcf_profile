@@ -63,10 +63,11 @@ dependencies[] = ds_extras
 dependencies[] = ds_forms
 dependencies[] = ds_ui
 ; Domain Access
-;dependencies[] = domain
+dependencies[] = domain
 ;dependencies[] = domain_path
-;dependencies[] = domain_locale
-;dependencies[] = domain_variable
+dependencies[] = domain_locale
+dependencies[] = domain_variable
+
 ; Fields
 ;dependencies[] = name
 ; Location
@@ -128,6 +129,7 @@ dependencies[] = node_export_features
 
 ; Performance and scalability
 dependencies[] = entitycache
+dependencies[] = advagg
 ; Picture
 dependencies[] = picture
 ; Rules
