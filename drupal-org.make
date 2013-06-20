@@ -156,6 +156,9 @@ projects[entity][subdir] = "contrib"
 ;projects[field-conditional-state][version] = "1.0"
 ;projects[field-conditional-state][subdir] = "contrib"
 
+projects[field_group][version] = "1.1"
+projects[field_group][subdir] = "contrib"
+
 projects[globalredirect][version] = "1.5"
 projects[globalredirect][subdir] = "contrib"
 
@@ -277,6 +280,9 @@ projects[webform_rules][subdir] = "contrib"
 
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
+
+projects[compact_forms][version] = "1.0"
+projects[compact_forms][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"

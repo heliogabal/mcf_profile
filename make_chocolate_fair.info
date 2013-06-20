@@ -74,6 +74,7 @@ dependencies[] = domain_conf
 
 ; Fields
 ;dependencies[] = name
+dependencies[] = field_group
 ; Location
 dependencies[] = addressfield
 ; Mail
@@ -195,6 +196,7 @@ dependencies[] = webform
 dependencies[] = webform_confirm_email
 dependencies[] = webform_rules
 dependencies[] = webform_simplenews
+dependencies[] = compact_forms
 ; Workbench
 dependencies[] = workbench
 dependencies[] = workbench_media
