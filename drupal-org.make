@@ -248,6 +248,9 @@ projects[bundle_copy][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
+projects[float_filter][version] = "1.0"
+projects[float_filter][subdir] = "contrib"
+
 projects[linkit][version] = "2.6"
 projects[linkit][subdir] = "contrib"
 
@@ -283,6 +286,8 @@ projects[webform_simplenews][subdir] = "contrib"
 
 projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
+projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_textfield-1459346-18.patch"
+
 
 projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"
