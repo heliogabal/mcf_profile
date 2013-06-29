@@ -9,6 +9,7 @@ core = "7.x"
 ; Administration
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
 dependencies[] = fpa
 ; Bean
 ;dependencies[] = bean

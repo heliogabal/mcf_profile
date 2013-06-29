@@ -10,6 +10,9 @@ projects[advagg][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
+projects[admin_views][version] = "1.2"
+projects[admin_views][subdir] = "contrib"
+
 projects[fpa][version] = "2.2"
 projects[fpa][subdir] = "contrib"
 
@@ -145,7 +148,7 @@ projects[i18n][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.0-beta3"
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][patch][] = "https://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
+projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
@@ -197,8 +200,10 @@ projects[robotstxt][subdir] = "contrib"
 ;projects[socialshareprivacy][version] = "1.11"
 ;projects[socialshareprivacy][subdir] = "contrib"
 
-projects[follow][version] = "2.0-alpha1"
+projects[follow][version] = "1.0-dev"
 projects[follow][subdir] = "contrib"
+;https://drupal.org/node/1419474
+projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
