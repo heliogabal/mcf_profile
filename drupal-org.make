@@ -58,8 +58,11 @@ projects[domain_variable][subdir] = "contrib"
 projects[domain_blocks][version] = "3.0-beta1"
 projects[domain_blocks][subdir] = "contrib"
 
-projects[domain_menu_block][version] = "1.0-beta2"
-projects[domain_menu_block][subdir] = "contrib"
+;projects[domain_menu_block][version] = "1.0-beta2"
+;projects[domain_menu_block][subdir] = "contrib"
+
+projects[domain_views][version] = "1.5"
+projects[domain_views][subdir] = "contrib"
 
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
@@ -139,7 +142,7 @@ projects[entity_translation][version] = "1.0-beta2"
 projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
-projects[entity_menu_links][subdir] =contrib
+projects[entity_menu_links][subdir] = contrib
 
 projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
@@ -149,6 +152,18 @@ projects[i18n][subdir] = "contrib"
 projects[l10n_update][version] = "1.0-beta3"
 projects[l10n_update][subdir] = "contrib"
 projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
+
+projects[languageicons][version] = 1.0
+projects[languageicons][subdir] = contrib
+
+projects[lang_dropdown][version] = 1.5
+projects[lang_dropdown][subdir] = contrib
+
+projects[translation_overview][version] = 2.0-beta1
+projects[translation_overview][subdir] = contrib
+
+projects[translation_table][version] = 1.0-beta1
+projects[translation_table][subdir] = contrib
 
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"

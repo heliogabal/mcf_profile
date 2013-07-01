@@ -72,6 +72,7 @@ dependencies[] = domain_nav
 dependencies[] = domain_content
 dependencies[] = domain_blocks
 dependencies[] = domain_conf
+dependencies[] = domain_views
 
 ; Fields
 ;dependencies[] = name
@@ -107,6 +108,11 @@ dependencies[] = i18n_translation
 dependencies[] = i18n_user
 dependencies[] = i18n_variable
 dependencies[] = l10n_update
+dependencies[] = languageicons
+dependencies[] = lang_dropdown
+dependencies[] = translation_overview
+dependencies[] = translation_table
+
 ; Other
 dependencies[] = breakpoints
 dependencies[] = entity
