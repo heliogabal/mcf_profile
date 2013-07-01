@@ -13,7 +13,7 @@ projects[admin_menu][subdir] = "contrib"
 projects[admin_views][version] = "1.2"
 projects[admin_views][subdir] = "contrib"
 
-projects[fpa][version] = "2.2"
+projects[fpa][version] = "2.3"
 projects[fpa][subdir] = "contrib"
 
 projects[bean][version] = "1.2"
@@ -188,7 +188,7 @@ projects[pathauto][subdir] = "contrib"
 projects[mpac][version] = "1.2"
 projects[mpac][subdir] = "contrib"
 
-projects[pgbar][version] = "1.0"
+projects[pgbar][version] = "1.1"
 projects[pgbar][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
