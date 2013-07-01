@@ -203,7 +203,7 @@ projects[robotstxt][subdir] = "contrib"
 projects[follow][version] = "2.0-alpha1"
 projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
-projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
+;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
