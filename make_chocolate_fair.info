@@ -112,6 +112,7 @@ dependencies[] = languageicons
 dependencies[] = lang_dropdown
 dependencies[] = translation_overview
 dependencies[] = translation_table
+dependencies[] = webform_localization
 
 ; Other
 dependencies[] = breakpoints
