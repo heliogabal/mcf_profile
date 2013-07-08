@@ -16,6 +16,15 @@ projects[admin_views][subdir] = "contrib"
 projects[fpa][version] = "2.3"
 projects[fpa][subdir] = "contrib"
 
+projects[feeds][version] = "2.0-alpha8"
+projects[feeds][subdir] = "contrib"
+
+projects[job_scheduler][version] = 2.0-alpha3
+projects[job_scheduler][subdir] = "contrib"
+
+projects[login_destination][version] = 1.1
+projects[login_destination][subdir] = contrib
+
 projects[bean][version] = "1.2"
 projects[bean][subdir] = "contrib"
 
@@ -164,6 +173,9 @@ projects[translation_overview][subdir] = contrib
 
 projects[translation_table][version] = 1.0-beta1
 projects[translation_table][subdir] = contrib
+
+projects[webform_localization][version] = 1.x-dev
+projects[webform_localization][subdir] = contrib
 
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
