@@ -10,6 +10,9 @@ projects[advagg][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
+projects[quickbar][version] = "1.1"
+projects[quickbar][subdir] = contrib
+
 projects[admin_views][version] = "1.2"
 projects[admin_views][subdir] = "contrib"
 
@@ -72,6 +75,12 @@ projects[domain_blocks][subdir] = "contrib"
 
 projects[domain_views][version] = "1.5"
 projects[domain_views][subdir] = "contrib"
+
+projects[viewfield][version] = "2.0"
+projects[viewfield][subdir] = contrib
+
+projects[views_accordion][version] = "1.0-rc2"
+projects[views_accordion][subdir] = contrib
 
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
@@ -176,6 +185,10 @@ projects[translation_table][subdir] = contrib
 
 projects[webform_localization][version] = 1.x-dev
 projects[webform_localization][subdir] = contrib
+; String update fix https://drupal.org/node/1801832
+projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-use-presave-instead-update-hook_0.patch
+; Submit Button localize fix https://drupal.org/node/1997172
+projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
 
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
