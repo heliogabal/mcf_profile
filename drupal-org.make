@@ -185,8 +185,6 @@ projects[translation_table][subdir] = contrib
 
 projects[webform_localization][version] = 1.x-dev
 projects[webform_localization][subdir] = contrib
-; String update fix https://drupal.org/node/1801832
-projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-use-presave-instead-update-hook_0.patch
 ; Submit Button localize fix https://drupal.org/node/1997172
 projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
 
@@ -243,7 +241,7 @@ projects[robotstxt][subdir] = "contrib"
 projects[follow][version] = "2.x-dev"
 projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
-projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
+;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
