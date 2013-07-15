@@ -152,6 +152,8 @@ projects[simplenews][subdir] = "contrib"
 
 projects[media][version] = "1.3"
 projects[media][subdir] = "contrib"
+; http://drupal.org/node/1411340
+projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
 projects[media_youtube][version] = "2.0-rc3"
 projects[media_youtube][subdir] = "contrib"
