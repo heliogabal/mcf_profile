@@ -351,6 +351,10 @@ projects[search_krumo][subdir] = "dev"
 projects[styleguide] = 1.1
 projects[styleguide][subdir] = "dev"
 
+projects[masquerade][version] = "1.0-rc5"
+projects[masquerade][subdir] = "dev"
+
+
 ; +++++ Themes +++++
 
 ; andromeda

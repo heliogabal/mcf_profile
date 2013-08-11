@@ -232,4 +232,5 @@ dependencies[] = inkota_petition
 ;dependencies[] = search_krumo
 ;dependencies[] = styleguide
 dependencies[] = diff
+dependencides[] = masquerade
 
