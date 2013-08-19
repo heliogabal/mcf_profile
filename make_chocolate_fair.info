@@ -207,6 +207,7 @@ dependencies[] = webform
 dependencies[] = webform_confirm_email
 dependencies[] = webform_rules
 dependencies[] = webform_simplenews
+dependencies[] = webform_ajax
 dependencies[] = compact_forms
 ; Workbench
 dependencies[] = workbench
