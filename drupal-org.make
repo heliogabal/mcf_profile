@@ -326,6 +326,9 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[webform][version] = "3.19"
 projects[webform][subdir] = "contrib"
 
+projects[webform_ajax][version] = "1.1"
+projects[webform_ajax][subdir] = "contrib"
+
 projects[webform_confirm_email][version] = "1.x-dev"
 projects[webform_confirm_email][subdir] = "contrib"
 
