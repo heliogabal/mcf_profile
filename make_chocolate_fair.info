@@ -131,7 +131,7 @@ dependencies[] = pgbar
 dependencies[] = redirect
 dependencies[] = globalredirect
 dependencies[] = robotstxt
-;dependencies[] = socialshareprivacy
+dependencies[] = socialshareprivacy
 dependencies[] = follow
 dependencies[] = token
 dependencies[] = transliteration
@@ -190,6 +190,7 @@ dependencies[] = addanother
 dependencies[] = wysiwyg
 dependencies[] = float_filter
 dependencies[] = linkit
+dependencies[] = linkit_target
 dependencies[] = insert
 dependencies[] = image_resize_filter
 
