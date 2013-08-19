@@ -299,6 +299,9 @@ projects[float_filter][subdir] = "contrib"
 projects[linkit][version] = "2.6"
 projects[linkit][subdir] = "contrib"
 
+projects[linkit_target][version] = "1.0"
+projects[linkit_target][subdir] = "contrib"
+
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
 
@@ -307,6 +310,9 @@ projects[image_resize_filter][subdir] = "contrib"
 
 projects[readmorecontrol][version] = "1.0"
 projects[readmorecontrol][subdir] = "contrib"
+
+projects[socialshareprivacy][version] = "1.11"
+projects[socialshareprivacy] = "contrib"
 
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
