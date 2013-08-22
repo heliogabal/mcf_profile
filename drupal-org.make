@@ -436,8 +436,8 @@ translations[] = sl
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 libraries[colorbox][destination] = "libraries"
-libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/colorbox.zip"
+libraries[colorbox][download][type] = git
+libraries[colorbox][download][url] = git://github.com/jackmoore/colorbox.git
 
 ; CKEditor
 libraries[ckeditor][directory_name] = "ckeditor"
@@ -445,3 +445,10 @@ libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.tar.gz"
+
+; socialshareprivacy
+libraries[socialshareprivacy][directory_name] = "socialshareprivacy"
+libraries[socialshareprivacy][type] = "library"
+libraries[socialshareprivacy][destination] = "libraries"
+libraries[socialshareprivacy][download][type] = "get"
+libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.tar.gz"
