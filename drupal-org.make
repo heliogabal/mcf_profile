@@ -237,9 +237,6 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.1"
 projects[robotstxt][subdir] = "contrib"
 
-;projects[socialshareprivacy][version] = "1.11"
-;projects[socialshareprivacy][subdir] = "contrib"
-
 projects[follow][version] = "2.x-dev"
 projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
@@ -312,7 +309,7 @@ projects[readmorecontrol][version] = "1.0"
 projects[readmorecontrol][subdir] = "contrib"
 
 projects[socialshareprivacy][version] = "1.11"
-projects[socialshareprivacy] = "contrib"
+projects[socialshareprivacy][subdir] = "contrib"
 
 projects[variable][version] = "2.3"
 projects[variable][subdir] = "contrib"
