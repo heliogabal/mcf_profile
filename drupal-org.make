@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.0-beta1"
+projects[advagg][version] = "2.0-rc2"
 projects[advagg][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -43,7 +43,7 @@ projects[colorbox_node][subdir] = "contrib"
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.0-beta6"
+projects[context][version] = "3.0-beta7"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.6"
@@ -82,7 +82,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.0-rc2"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.0-rc1"
+projects[features][version] = "2.0-rc2"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -158,13 +158,13 @@ projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwy
 projects[media_youtube][version] = "2.0-rc3"
 projects[media_youtube][subdir] = "contrib"
 
-projects[entity_translation][version] = "1.0-beta2"
+projects[entity_translation][version] = "1.0-beta3"
 projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.9"
+projects[i18n][version] = "1.10"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
@@ -193,7 +193,7 @@ projects[webform_localization][patch][] = http://drupal.org/files/webform_locali
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 projects[entity][subdir] = "contrib"
 
 ;projects[field-conditional-state][version] = "1.0"
@@ -219,7 +219,7 @@ projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widg
 projects[title][version] = 1.0-alpha7
 projects[title][subdir] = "contrib"
 
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
@@ -278,7 +278,7 @@ projects[metatag][subdir] = "contrib"
 projects[omega_ui][version] = "2.x-dev"
 projects[omega_ui][subdir] = "contrib"
 
-;projects[tmgmt][version] = "1.0-alpha3"
+;projects[tmgmt][version] = "1.0-beta2"
 ;projects[tmgmt][subdir] = "contrib"
 
 projects[addanother][version] = "2.1"
@@ -314,7 +314,7 @@ projects[readmorecontrol][subdir] = "contrib"
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy] = "contrib"
 
-projects[variable][version] = "2.2"
+projects[variable][version] = "2.3"
 projects[variable][subdir] = "contrib"
 
 projects[views][version] = "3.7"
@@ -378,7 +378,7 @@ projects[masquerade][subdir] = "dev"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.0-beta6"
+projects[omega][version] = "4.0-beta7"
 projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"
