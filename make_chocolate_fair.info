@@ -145,6 +145,7 @@ dependencies[] = colorbox
 dependencies[] = colorbox_node
 
 ; Performance and scalability
+dependencies[] = blockcache_alter
 dependencies[] = entitycache
 dependencies[] = advagg
 dependencies[] = advagg_bundler
@@ -152,6 +153,7 @@ dependencies[] = advagg_css_cdn
 dependencies[] = advagg_js_cdn
 dependencies[] = advagg_css_compress
 dependencies[] = advagg_js_compress
+dependencies[] = views_content_cache
 
 ; Picture
 dependencies[] = picture
@@ -189,6 +191,7 @@ dependencies[] = omega_ui
 dependencies[] = addanother
 dependencies[] = wysiwyg
 dependencies[] = float_filter
+dependencies[] = flexslider
 dependencies[] = linkit
 dependencies[] = linkit_target
 dependencies[] = insert
