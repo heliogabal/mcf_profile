@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.0-rc2"
+projects[advagg][version] = "2.0-rc3"
 projects[advagg][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -55,7 +55,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.4"
+projects[ds][version] = "2.5"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.10"
@@ -85,7 +85,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.0-rc2"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.0-rc2"
+projects[features][version] = "2.0-rc3"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -208,7 +208,7 @@ projects[entity][subdir] = "contrib"
 ;projects[field-conditional-state][version] = "1.0"
 ;projects[field-conditional-state][subdir] = "contrib"
 
-projects[field_group][version] = "1.1"
+projects[field_group][version] = "1.2"
 projects[field_group][subdir] = "contrib"
 
 projects[flexslider][version] = "2.0-alpha2"
@@ -303,7 +303,7 @@ projects[node_export][subdir] = "contrib"
 projects[bundle_copy][version] = "1.1"
 projects[bundle_copy][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[float_filter][version] = "1.0"
@@ -342,7 +342,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.x-dev"
+projects[webform_confirm_email][version] = "1.0"
 projects[webform_confirm_email][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
