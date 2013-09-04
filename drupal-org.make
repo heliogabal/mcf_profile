@@ -468,6 +468,6 @@ libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socia
 
 ; flexslider
 libraries[flexslider][download][type] = "get"
-libraries[flexslider][download][url] = "https://github.com/.../zipball/master"
+libraries[flexslider][download][url] = "http://github.com/woothemes/FlexSlider/zipball/master"
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
