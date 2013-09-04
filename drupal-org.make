@@ -359,7 +359,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"
 
-projects[workbench_media][version] = "1.1"
+projects[workbench_media][version] = "2.1"
 projects[workbench_media][subdir] = "contrib"
 
 ; +++++ Development +++++++
