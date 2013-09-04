@@ -28,6 +28,9 @@ projects[job_scheduler][subdir] = "contrib"
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
+projects[login_security][version] = "1.7"
+projects[login_security][subdir] = "contrib"
+
 projects[bean][version] = "1.2"
 projects[bean][subdir] = "contrib"
 
@@ -150,13 +153,16 @@ projects[addressfield][subdir] = "contrib"
 projects[simplenews][version] = "1.0"
 projects[simplenews][subdir] = "contrib"
 
-projects[media][version] = "1.3"
+projects[media][version] = "2.0-alpha2"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
 projects[media_youtube][version] = "2.0-rc3"
 projects[media_youtube][subdir] = "contrib"
+
+projects[file_entity][version] = "2.0-alpha2"
+projects[file_entity][subdir] = "contrib"
 
 projects[entity_translation][version] = "1.0-beta3"
 projects[entity_translation][subdir] = "contrib"
@@ -178,6 +184,9 @@ projects[languageicons][subdir] = contrib
 
 projects[lang_dropdown][version] = 1.5
 projects[lang_dropdown][subdir] = contrib
+
+projects[tmgmt][version] = "1.0-beta2"
+projects[tmgmt][subdir] = "contrib"
 
 projects[translation_overview][version] = 2.0-beta1
 projects[translation_overview][subdir] = contrib
@@ -201,6 +210,9 @@ projects[entity][subdir] = "contrib"
 
 projects[field_group][version] = "1.1"
 projects[field_group][subdir] = "contrib"
+
+projects[flexslider][version] = "2.0-alpha2"
+projects[flexslider][subdir] = "contrib"
 
 projects[globalredirect][version] = "1.5"
 projects[globalredirect][subdir] = "contrib"
@@ -254,6 +266,13 @@ projects[web_widgets][subdir] = "contrib"
 projects[entitycache][version] = "1.x-dev"
 projects[entitycache][subdir] = "contrib"
 
+projects[blockcache_alter][version] = "1.0"
+projects[blockcache_alter][subdir] = "contrib"
+
+projects[views_content_cache][version] = "3.0-alpha2"
+projects[views_content_cache][subdir] = "contrib"
+
+
 projects[picture][version] = "1.1"
 projects[picture][subdir] = "contrib"
 
@@ -274,9 +293,6 @@ projects[metatag][subdir] = "contrib"
 
 projects[omega_ui][version] = "2.x-dev"
 projects[omega_ui][subdir] = "contrib"
-
-;projects[tmgmt][version] = "1.0-beta2"
-;projects[tmgmt][subdir] = "contrib"
 
 projects[addanother][version] = "2.1"
 projects[addanother][subdir] = "contrib"
@@ -449,3 +465,9 @@ libraries[socialshareprivacy][type] = "library"
 libraries[socialshareprivacy][destination] = "libraries"
 libraries[socialshareprivacy][download][type] = "get"
 libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.tar.gz"
+
+; flexslider
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "https://github.com/.../zipball/master"
+libraries[flexslider][directory_name] = "flexslider"
+libraries[flexslider][type] = "library"
