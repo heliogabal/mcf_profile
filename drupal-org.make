@@ -55,7 +55,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.5"
+projects[ds][version] = "2.6"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.10"
@@ -211,7 +211,7 @@ projects[entity][subdir] = "contrib"
 projects[field_group][version] = "1.2"
 projects[field_group][subdir] = "contrib"
 
-projects[flexslider][version] = "2.0-alpha2"
+projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider][subdir] = "contrib"
 
 projects[globalredirect][version] = "1.5"
@@ -249,7 +249,8 @@ projects[redirect][subdir] = "contrib"
 projects[robotstxt][version] = "1.1"
 projects[robotstxt][subdir] = "contrib"
 
-projects[follow][version] = "2.x-dev"
+;projects[follow][version] = "2.x-dev"
+projects[follow][version] = "2.0-alpha1"
 projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
 ;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
