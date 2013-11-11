@@ -2,14 +2,10 @@
 core = "7.x"
 api = "2"
 
-;projects[drupal][version] = "7.x"
 ;Use Omega8 core instead of Drupal core:
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.23.1.tar.gz"
-
-; include the d.o. profile base
-;includes[] = "drupal-org.make"
+projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.23.3.tar.gz"
 
 ; include mcf profile from github
 projects[make_chocolate_fair][type] = "profile"
