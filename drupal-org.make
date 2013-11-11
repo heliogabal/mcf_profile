@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.0-rc3"
+projects[advagg][version] = "2.1"
 projects[advagg][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -12,6 +12,9 @@ projects[admin_menu][subdir] = "contrib"
 
 projects[quickbar][version] = "2.0-beta1"
 projects[quickbar][subdir] = contrib
+
+projects[admin_theme][version] = "1.0"
+projects[admin_theme][subdir] = "contrib"
 
 projects[admin_views][version] = "1.2"
 projects[admin_views][subdir] = "contrib"
@@ -40,13 +43,13 @@ projects[filefield_nginx_progress][subdir] = "contrib"
 projects[colorbox][version] = "2.4"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = "3.0"
+projects[colorbox_node][version] = "3.2"
 projects[colorbox_node][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.0-beta7"
+projects[context][version] = "3.1"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.6"
@@ -85,7 +88,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.0-rc2"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.0-rc3"
+projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -110,6 +113,18 @@ projects[strongarm][subdir] = "dev"
 
 projects[menu_import][version] = "1.5"
 projects[menu_import][subdir] = dev
+
+projects[imce][version] = "1.7"
+projects[imce][subdir] = "contrib"
+
+projects[imce_plupload][version] = "1.2"
+projects[imce_plupload][subdir] = "contrib"
+
+projects[imce_mkdir][version] = "1.0"
+projects[imce_mkdir][subdir] ="contrib"
+
+projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg][subdir] = "contrib"
 
 ;projects[inkota_base][type] = module
 ;projects[inkota_base][location] = http://features.otro-mundo.org/fserver
@@ -150,18 +165,18 @@ projects[name][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta4"
 projects[addressfield][subdir] = "contrib"
 
-projects[simplenews][version] = "1.0"
+projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
-projects[media][version] = "2.0-alpha2"
+projects[media][version] = "2.0-alpha3"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
-projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
+;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
 projects[media_youtube][version] = "2.0-rc3"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-alpha2"
+projects[file_entity][version] = "2.0-alpha3"
 projects[file_entity][subdir] = "contrib"
 
 projects[entity_translation][version] = "1.0-beta3"
@@ -194,11 +209,6 @@ projects[translation_overview][subdir] = contrib
 projects[translation_table][version] = 1.0-beta1
 projects[translation_table][subdir] = contrib
 
-projects[webform_localization][version] = 1.x-dev
-projects[webform_localization][subdir] = contrib
-; Submit Button localize fix https://drupal.org/node/1997172
-projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
-
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
 
@@ -208,7 +218,7 @@ projects[entity][subdir] = "contrib"
 ;projects[field-conditional-state][version] = "1.0"
 ;projects[field-conditional-state][subdir] = "contrib"
 
-projects[field_group][version] = "1.2"
+projects[field_group][version] = "1.3"
 projects[field_group][subdir] = "contrib"
 
 projects[flexslider][version] = "2.0-alpha3"
@@ -240,8 +250,11 @@ projects[pathauto][subdir] = "contrib"
 projects[mpac][version] = "1.2"
 projects[mpac][subdir] = "contrib"
 
-projects[pgbar][version] = "1.1"
+projects[pgbar][version] = "1.2"
 projects[pgbar][subdir] = "contrib"
+
+projects[plupload][version] = "1.4"
+projects[plupload][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
@@ -267,17 +280,19 @@ projects[web_widgets][subdir] = "contrib"
 projects[entitycache][version] = "1.x-dev"
 projects[entitycache][subdir] = "contrib"
 
+projects[session_cache][version] = "1.2"
+projects[session_cache][subdir] ="contrib"
+
 projects[blockcache_alter][version] = "1.0"
 projects[blockcache_alter][subdir] = "contrib"
 
-projects[views_content_cache][version] = "3.0-alpha2"
+projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-
-projects[picture][version] = "1.1"
+projects[picture][version] = "1.2"
 projects[picture][subdir] = "contrib"
 
-projects[rules][version] = "2.3"
+projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 
 projects[metatag][version] = "1.0-beta7"
@@ -292,8 +307,8 @@ projects[metatag][subdir] = "contrib"
 ;projects[omega_tools][version] = "3.0-rc4"
 ;projects[omega_tools][subdir] = "contrib"
 
-projects[omega_ui][version] = "2.x-dev"
-projects[omega_ui][subdir] = "contrib"
+;projects[omega_ui][version] = "2.x-dev"
+;projects[omega_ui][subdir] = "contrib"
 
 projects[addanother][version] = "2.1"
 projects[addanother][subdir] = "contrib"
@@ -304,7 +319,7 @@ projects[node_export][subdir] = "contrib"
 projects[bundle_copy][version] = "1.1"
 projects[bundle_copy][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[float_filter][version] = "1.0"
@@ -343,7 +358,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.0"
+projects[webform_confirm_email][version] = "1.2"
 projects[webform_confirm_email][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -351,6 +366,11 @@ projects[webform_rules][subdir] = "contrib"
 
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
+
+projects[webform_localization][version] = 1.x-dev
+projects[webform_localization][subdir] = contrib
+; Submit Button localize fix https://drupal.org/node/1997172
+;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
 
 projects[compact_forms][version] = "1.0"
 projects[compact_forms][subdir] = "contrib"
@@ -392,7 +412,7 @@ projects[masquerade][subdir] = "dev"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.0-beta7"
+projects[omega][version] = "4.0"
 projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"
