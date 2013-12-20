@@ -427,9 +427,9 @@ projects[omega][type] = "theme"
 projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
-projects[mcf_theme][type] = "theme"
-projects[mcf_theme][version] = "2.0"
-projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
+;projects[mcf_theme][type] = "theme"
+;projects[mcf_theme][version] = "2.0"
+;projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; poultry
 ;projects[poultry][type] = "theme"
