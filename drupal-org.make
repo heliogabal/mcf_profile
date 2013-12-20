@@ -277,7 +277,7 @@ projects[transliteration][subdir] = "contrib"
 projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
 
-projects[entitycache][version] = "1.x-dev"
+projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
 
 projects[session_cache][version] = "1.2"
@@ -417,7 +417,7 @@ projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"
 ;projects[mcf_theme][version] = "1.0"
-;projects[mcf_theme][location] = http://features.otro-mundo.org/fserver
+;projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; poultry
 ;projects[poultry][type] = "theme"
