@@ -30,6 +30,9 @@ projects[bean][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
+projects[addtoany][version] = "4.4"
+projects[addtoany][subdir] = "contrib"
+
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
@@ -127,6 +130,9 @@ projects[field_group][subdir] = "contrib"
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
 
+projects[jcaption][version] = "1.3"
+projects[jcaption][subdir] = "contrib"
+
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
@@ -201,11 +207,17 @@ projects[wysiwyg][subdir] = "contrib"
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
 
+projects[video_filter][version] = "3.1"
+projects[video_filter][subdir] = "contrib"
+
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = "contrib"
+
+projects[views_fluid_grid][version] = "3.0"
+projects[views_fluid_grid][subdir] = "contrib"
 
 projects[webform][version] = "3.19"
 projects[webform][subdir] = "contrib"
