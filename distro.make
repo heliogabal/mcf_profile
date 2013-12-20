@@ -27,7 +27,7 @@ projects[bean][subdir] = "contrib"
 ;projects[location][version] = "3.0-rc1"
 ;projects[location][subdir] = "contrib"
 
-projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
@@ -120,6 +120,9 @@ projects[entity][subdir] = "contrib"
 
 projects[field-conditional-state][version] = "1.0"
 projects[field-conditional-state][subdir] = "contrib"
+
+projects[field_group][version] = "1.3"
+projects[field_group][subdir] = "contrib"
 
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"

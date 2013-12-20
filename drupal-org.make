@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.1"
+projects[advagg][version] = "2.3"
 projects[advagg][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -31,7 +31,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[login_security][version] = "1.7"
+projects[login_security][version] = "1.8"
 projects[login_security][subdir] = "contrib"
 
 projects[bean][version] = "1.2"
@@ -40,7 +40,7 @@ projects[bean][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.4"
+projects[colorbox][version] = "2.5"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.2"
@@ -114,10 +114,10 @@ projects[strongarm][subdir] = "dev"
 projects[menu_import][version] = "1.5"
 projects[menu_import][subdir] = dev
 
-projects[imce][version] = "1.7"
+projects[imce][version] = "1.8"
 projects[imce][subdir] = "contrib"
 
-projects[imce_plupload][version] = "1.2"
+projects[imce_plupload][version] = "1.4"
 projects[imce_plupload][subdir] = "contrib"
 
 projects[imce_mkdir][version] = "1.0"
@@ -173,7 +173,7 @@ projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
-projects[media_youtube][version] = "2.0-rc3"
+projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
 projects[file_entity][version] = "2.0-alpha3"
@@ -233,10 +233,10 @@ projects[google_fonts][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.1"
+projects[link][version] = "1.2"
 projects[link][subdir] = "contrib"
-projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
-projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
+;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
+;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
 projects[title][version] = 1.0-alpha7
 projects[title][subdir] = "contrib"
@@ -364,7 +364,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_rules][version] = "1.6"
 projects[webform_rules][subdir] = "contrib"
 
-projects[webform_simplenews][version] = "1.x-dev"
+projects[webform_simplenews][version] = "1.1"
 projects[webform_simplenews][subdir] = "contrib"
 
 projects[webform_localization][version] = 1.x-dev
@@ -412,7 +412,7 @@ projects[masquerade][subdir] = "dev"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.0"
+projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"
