@@ -123,7 +123,7 @@ projects[menu_import][subdir] = dev
 projects[imce][version] = "1.8"
 projects[imce][subdir] = "contrib"
 
-projects[imce_plupload][version] = "1.4"
+projects[imce_plupload][version] = "1.2"
 projects[imce_plupload][subdir] = "contrib"
 
 projects[imce_mkdir][version] = "1.0"
