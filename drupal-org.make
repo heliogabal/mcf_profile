@@ -7,6 +7,9 @@ api = "2"
 projects[advagg][version] = "2.3"
 projects[advagg][subdir] = "contrib"
 
+projects[addtoany][version] = "4.4"
+projects[addtoany][subdir] = "contrib"
+
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
@@ -24,6 +27,9 @@ projects[fpa][subdir] = "contrib"
 
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = "contrib"
+
+projects[jcaption][version] = "1.3"
+projects[jcaption][subdir] = "contrib"
 
 projects[job_scheduler][version] = 2.0-alpha3
 projects[job_scheduler][subdir] = "contrib"
@@ -289,6 +295,12 @@ projects[blockcache_alter][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
+projects[views_fluid_grid][version] = "3.0"
+projects[views_fluid_grid][subdir] = "contrib"
+
+projects[video_filter][version] = "3.1"
+projects[video_filter][subdir] = "contrib"
+
 projects[picture][version] = "1.2"
 projects[picture][subdir] = "contrib"
 
@@ -364,7 +376,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_rules][version] = "1.6"
 projects[webform_rules][subdir] = "contrib"
 
-projects[webform_simplenews][version] = "1.1"
+projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
 projects[webform_localization][version] = 1.x-dev
@@ -415,9 +427,9 @@ projects[omega][type] = "theme"
 projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
-;projects[mcf_theme][type] = "theme"
-;projects[mcf_theme][version] = "1.0"
-;projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
+projects[mcf_theme][type] = "theme"
+projects[mcf_theme][version] = "2.0"
+projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
 
 ; poultry
 ;projects[poultry][type] = "theme"

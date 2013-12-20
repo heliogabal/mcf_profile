@@ -103,7 +103,7 @@ projects[media][subdir] = "contrib"
 projects[file_entity][version] = "2.0-alpha3"
 projects[file_entity][subdir] = "contrib"
 
-projects[plupload][version] = "1.4"
+projects[plupload][version] = "1.2"
 projects[plupload][subdir] = "contrib"
 
 projects[media_youtube][version] = "2.0-rc3"
@@ -254,7 +254,7 @@ projects[workbench_media][subdir] = "contrib"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.0"
+projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
 projects[mcf_theme][type] = "theme"
