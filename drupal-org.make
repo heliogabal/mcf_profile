@@ -331,7 +331,7 @@ projects[node_export][subdir] = "contrib"
 projects[bundle_copy][version] = "1.1"
 projects[bundle_copy][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.2"
+projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[float_filter][version] = "1.0"
