@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.3"
+projects[advagg][version] = "2.4"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.4"
@@ -58,7 +58,7 @@ projects[ctools][subdir] = "contrib"
 projects[context][version] = "3.1"
 projects[context][subdir] = "contrib"
 
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 projects[date][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.0-rc4"
@@ -168,7 +168,7 @@ projects[name][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 ;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -361,7 +361,7 @@ projects[variable][subdir] = "contrib"
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.1"
+projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[webform][version] = "3.19"
