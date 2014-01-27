@@ -7,7 +7,7 @@ api = "2"
 projects[advagg][version] = "2.4"
 projects[advagg][subdir] = "contrib"
 
-projects[addtoany][version] = "4.4"
+projects[addtoany][version] = "4.5"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -218,7 +218,7 @@ projects[translation_table][subdir] = contrib
 projects[breakpoints][version] = "1.1"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.2"
+projects[entity][version] = "1.3"
 projects[entity][subdir] = "contrib"
 
 ;projects[field-conditional-state][version] = "1.0"
@@ -259,7 +259,7 @@ projects[mpac][subdir] = "contrib"
 projects[pgbar][version] = "1.2"
 projects[pgbar][subdir] = "contrib"
 
-projects[plupload][version] = "1.4"
+projects[plupload][version] = "1.6"
 projects[plupload][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
@@ -307,7 +307,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.0-beta7"
+projects[metatag][version] = "1.0-beta9"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -355,7 +355,7 @@ projects[readmorecontrol][subdir] = "contrib"
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
-projects[variable][version] = "2.3"
+projects[variable][version] = "2.4"
 projects[variable][subdir] = "contrib"
 
 projects[views][version] = "3.7"
@@ -424,7 +424,7 @@ projects[masquerade][subdir] = "dev"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.1"
+projects[omega][version] = "4.2"
 projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"
