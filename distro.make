@@ -2,24 +2,9 @@
 core = "7.x"
 api = "2"
 
-;projects[drupal][version] = "7.x"
-;Use Omega8 core instead of Drupal core:
-;projects[drupal][type] = "core"
-;projects[drupal][download][type] = "get"
-;projects[drupal][download][url] = "http://files.aegir.cc/dev/drupal-7.22.1.tar.gz"
-
-; include the d.o. profile base
-;includes[] = "drupal-org.make"
-
-; include mcf profile from github
-;projects[make_chocolate_fair][type] = "profile"
-;projects[make_chocolate_fair][download][type] = "git"
-;projects[make_chocolate_fair][download][url] = "git@github.com:heliogabal/mcf_profile.git"
-;projects[make_chocolate_fair][download][branch] = "master"
-
 ; +++++ Disabled Omega8 Modules +++++
 
-;projects[entitycache][version] = "1.x-dev"
+;projects[entitycache][version] = "1.2"
 ;projects[entitycache][subdir] = "contrib"
 
 ;projects[fpa][version] = "2.2"
@@ -42,13 +27,16 @@ projects[bean][subdir] = "contrib"
 ;projects[location][version] = "3.0-rc1"
 ;projects[location][subdir] = "contrib"
 
-projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][version] = "1.0-beta5"
 projects[addressfield][subdir] = "contrib"
+
+projects[addtoany][version] = "4.4"
+projects[addtoany][subdir] = "contrib"
 
 projects[ctools][version] = "1.3"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.0-beta6"
+projects[context][version] = "3.1"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.6"
@@ -66,7 +54,7 @@ projects[domain][subdir] = "contrib"
 projects[domain_locale][version] = "1.0-beta3"
 projects[domain_locale][subdir] = "contrib"
 
-projects[features][version] = "2.0-beta2"
+projects[features][version] = "2.0"
 projects[features][subdir] = "contrib"
 
 projects[features_extra][version] = "1.0-beta1"
@@ -106,11 +94,17 @@ projects[name][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 ;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[simplenews][version] = "1.0"
+projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
-projects[media][version] = "1.3"
+projects[media][version] = "2.0-alpha3"
 projects[media][subdir] = "contrib"
+
+projects[file_entity][version] = "2.0-alpha3"
+projects[file_entity][subdir] = "contrib"
+
+projects[plupload][version] = "1.2"
+projects[plupload][subdir] = "contrib"
 
 projects[media_youtube][version] = "2.0-rc3"
 projects[media_youtube][subdir] = "contrib"
@@ -130,8 +124,14 @@ projects[entity][subdir] = "contrib"
 projects[field-conditional-state][version] = "1.0"
 projects[field-conditional-state][subdir] = "contrib"
 
+projects[field_group][version] = "1.3"
+projects[field_group][subdir] = "contrib"
+
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
+
+projects[jcaption][version] = "1.3"
+projects[jcaption][subdir] = "contrib"
 
 projects[libraries][version] = "2.1"
 projects[libraries][subdir] = "contrib"
@@ -147,7 +147,7 @@ projects[module_filter][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
-projects[pgbar][version] = "1.0"
+projects[pgbar][version] = "1.2"
 projects[pgbar][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
@@ -168,10 +168,10 @@ projects[transliteration][subdir] = "contrib"
 projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
 
-projects[picture][version] = "1.1"
+projects[picture][version] = "1.2"
 projects[picture][subdir] = "contrib"
 
-projects[rules][version] = "2.3"
+projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 
 projects[metatag][version] = "1.0-beta7"
@@ -183,11 +183,11 @@ projects[tagclouds][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 projects[delta][subdir] = "contrib"
 
-projects[omega_tools][version] = "3.0-rc4"
-projects[omega_tools][subdir] = "contrib"
+;projects[omega_tools][version] = "3.0-rc4"
+;projects[omega_tools][subdir] = "contrib"
 
-projects[omega_ui][version] = "2.x-dev"
-projects[omega_ui][subdir] = "contrib"
+;projects[omega_ui][version] = "2.x-dev"
+;projects[omega_ui][subdir] = "contrib"
 
 ;projects[tmgmt][version] = "1.0-alpha3"
 ;projects[tmgmt][subdir] = "contrib"
@@ -207,16 +207,22 @@ projects[wysiwyg][subdir] = "contrib"
 projects[variable][version] = "2.2"
 projects[variable][subdir] = "contrib"
 
+projects[video_filter][version] = "3.1"
+projects[video_filter][subdir] = "contrib"
+
 projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "3.18"
+projects[views_fluid_grid][version] = "3.0"
+projects[views_fluid_grid][subdir] = "contrib"
+
+projects[webform][version] = "3.19"
 projects[webform][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.x-dev"
+projects[webform_confirm_email][version] = "1.2"
 projects[webform_confirm_email][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -224,6 +230,9 @@ projects[webform_rules][subdir] = "contrib"
 
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
+
+projects[webform_localization][version] = "1.x-dev"
+projects[webform_localization][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"
@@ -245,7 +254,7 @@ projects[workbench_media][subdir] = "contrib"
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.0-beta3"
+projects[omega][version] = "4.1"
 projects[omega][subdir] = "contrib"
 
 projects[mcf_theme][type] = "theme"

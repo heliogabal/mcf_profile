@@ -86,8 +86,9 @@ dependencies[] = simplenews
 ; Media
 dependencies[] = file_entity
 dependencies[] = media
-dependencies[] = media_internet
-dependencies[] = media_youtube
+;dependencies[] = media_internet
+;dependencies[] = media_youtube
+dependencies[] = video_filter
 ; Multilingual - Entity Translation
 dependencies[] = entity_translation
 dependencies[] = entity_translation_i18n_menu
@@ -131,7 +132,7 @@ dependencies[] = pgbar
 dependencies[] = redirect
 dependencies[] = globalredirect
 dependencies[] = robotstxt
-;dependencies[] = socialshareprivacy
+dependencies[] = socialshareprivacy
 dependencies[] = follow
 dependencies[] = token
 dependencies[] = transliteration
@@ -145,6 +146,7 @@ dependencies[] = colorbox
 dependencies[] = colorbox_node
 
 ; Performance and scalability
+dependencies[] = blockcache_alter
 dependencies[] = entitycache
 dependencies[] = advagg
 dependencies[] = advagg_bundler
@@ -152,6 +154,7 @@ dependencies[] = advagg_css_cdn
 dependencies[] = advagg_js_cdn
 dependencies[] = advagg_css_compress
 dependencies[] = advagg_js_compress
+dependencies[] = views_content_cache
 
 ; Picture
 dependencies[] = picture
@@ -172,7 +175,7 @@ dependencies[] = metatag_views
 ;dependencies[] = delta_blocks
 ;dependencies[] = delta_ui
 ;dependencies[] = omega_tools
-dependencies[] = omega_ui
+;dependencies[] = omega_ui
 ; Translation Management
 ;dependencies[] = tmgmt
 ;dependencies[] = tmgmt_entity
@@ -187,9 +190,12 @@ dependencies[] = omega_ui
 ;dependencies[] = tmgmt_ui
 ; User interface
 dependencies[] = addanother
+dependencies[] = addtoany
 dependencies[] = wysiwyg
 dependencies[] = float_filter
+dependencies[] = flexslider
 dependencies[] = linkit
+dependencies[] = linkit_target
 dependencies[] = insert
 dependencies[] = image_resize_filter
 
@@ -201,15 +207,17 @@ dependencies[] = variable_store
 dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui
+dependencies[] = views_fluid_grid
 ; Webform
 dependencies[] = webform
 dependencies[] = webform_confirm_email
 dependencies[] = webform_rules
 dependencies[] = webform_simplenews
+dependencies[] = webform_ajax
 dependencies[] = compact_forms
 ; Workbench
-dependencies[] = workbench
-dependencies[] = workbench_media
+;dependencies[] = workbench
+;dependencies[] = workbench_media
 ; Features
 dependencies[] = features
 dependencies[] = fe_block
@@ -232,4 +240,5 @@ dependencies[] = inkota_petition
 ;dependencies[] = search_krumo
 ;dependencies[] = styleguide
 dependencies[] = diff
+dependencides[] = masquerade
 
