@@ -21,6 +21,9 @@ api = "2"
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
+projects[admin_views][version] = "1.3"
+projects[admin_views][subdir] = "contrib"
+
 projects[bean][version] = "1.1"
 projects[bean][subdir] = "contrib"
 
@@ -33,7 +36,7 @@ projects[addressfield][subdir] = "contrib"
 projects[addtoany][version] = "4.4"
 projects[addtoany][subdir] = "contrib"
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.1"
@@ -115,7 +118,7 @@ projects[entity_translation][subdir] = "contrib"
 projects[i18n][version] = "1.8"
 projects[i18n][subdir] = "contrib"
 
-projects[breakpoints][version] = "1.0"
+projects[breakpoints][version] = "1.2"
 projects[breakpoints][subdir] = "contrib"
 
 projects[entity][version] = "1.1"
@@ -192,7 +195,7 @@ projects[delta][subdir] = "contrib"
 ;projects[tmgmt][version] = "1.0-alpha3"
 ;projects[tmgmt][subdir] = "contrib"
 
-projects[addanother][version] = "2.1"
+projects[addanother][version] = "2.2"
 projects[addanother][subdir] = "contrib"
 
 projects[node_export][version] = "3.0"

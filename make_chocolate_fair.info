@@ -127,6 +127,7 @@ dependencies[] = module_filter
 dependencies[] = pathauto
 dependencies[] = title
 dependencies[] = mpac
+dependencies[] = optimizedb
 dependencies[] = pgbar
 ;dependencies[] = pgbar_block
 dependencies[] = redirect

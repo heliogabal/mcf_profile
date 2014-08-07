@@ -19,16 +19,16 @@ projects[quickbar][subdir] = contrib
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
-projects[admin_views][version] = "1.2"
+projects[admin_views][version] = "1.3"
 projects[admin_views][subdir] = "contrib"
 
-projects[fpa][version] = "2.3"
+projects[fpa][version] = "2.5"
 projects[fpa][subdir] = "contrib"
 
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = "contrib"
 
-projects[jcaption][version] = "1.3"
+projects[jcaption][version] = "1.4"
 projects[jcaption][subdir] = "contrib"
 
 projects[job_scheduler][version] = 2.0-alpha3
@@ -37,7 +37,7 @@ projects[job_scheduler][subdir] = "contrib"
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[login_security][version] = "1.8"
+projects[login_security][version] = "1.9"
 projects[login_security][subdir] = "contrib"
 
 projects[bean][version] = "1.2"
@@ -46,19 +46,19 @@ projects[bean][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.5"
+projects[colorbox][version] = "2.7"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = "3.2"
+projects[colorbox_node][version] = "3.3"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.1"
+projects[context][version] = "3.2"
 projects[context][subdir] = "contrib"
 
-projects[date][version] = "2.7"
+projects[date][version] = "2.8"
 projects[date][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.0-rc4"
@@ -67,7 +67,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[ds][version] = "2.6"
 projects[ds][subdir] = "contrib"
 
-projects[domain][version] = "3.10"
+projects[domain][version] = "3.11"
 projects[domain][subdir] = "contrib"
 
 projects[domain_path][version] = "1.0-beta4"
@@ -91,10 +91,10 @@ projects[domain_views][subdir] = "contrib"
 projects[viewfield][version] = "2.0"
 projects[viewfield][subdir] = contrib
 
-projects[views_accordion][version] = "1.0-rc2"
+projects[views_accordion][version] = "1.0"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.0"
+projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -123,10 +123,10 @@ projects[strongarm][subdir] = "dev"
 projects[menu_import][version] = "1.5"
 projects[menu_import][subdir] = dev
 
-projects[imce][version] = "1.8"
+projects[imce][version] = "1.9"
 projects[imce][subdir] = "contrib"
 
-projects[imce_plupload][version] = "1.2"
+projects[imce_plupload][version] = "1.6"
 projects[imce_plupload][subdir] = "contrib"
 
 projects[imce_mkdir][version] = "1.0"
@@ -177,6 +177,9 @@ projects[addressfield][subdir] = "contrib"
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
 
+projects[system_status][version] = "2.7"
+projects[system_status][subdir] = "contrib"
+
 projects[media][version] = "2.0-alpha3"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
@@ -194,16 +197,16 @@ projects[entity_translation][subdir] = "contrib"
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.10"
+projects[i18n][version] = "1.11"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
 
-projects[l10n_update][version] = "1.0-beta3"
+projects[l10n_update][version] = "1.0"
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
+;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
-projects[languageicons][version] = 1.0
+projects[languageicons][version] = 1.1
 projects[languageicons][subdir] = contrib
 
 projects[lang_dropdown][version] = 1.5
@@ -218,16 +221,16 @@ projects[translation_overview][subdir] = contrib
 projects[translation_table][version] = 1.0-beta1
 projects[translation_table][subdir] = contrib
 
-projects[breakpoints][version] = "1.1"
+projects[breakpoints][version] = "1.2"
 projects[breakpoints][subdir] = "contrib"
 
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.5"
 projects[entity][subdir] = "contrib"
 
 ;projects[field-conditional-state][version] = "1.0"
 ;projects[field-conditional-state][subdir] = "contrib"
 
-projects[field_group][version] = "1.3"
+projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
 projects[flexslider][version] = "2.0-alpha3"
@@ -239,7 +242,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
 
-projects[libraries][version] = "2.1"
+projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.2"
@@ -253,13 +256,16 @@ projects[title][subdir] = "contrib"
 projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
 
+projects[optimizedb][version] = "1.4"
+projects[optimizedb][subdir] = "contrib"
+
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
 projects[mpac][version] = "1.2"
 projects[mpac][subdir] = "contrib"
 
-projects[pgbar][version] = "1.2"
+projects[pgbar][version] = "1.4"
 projects[pgbar][subdir] = "contrib"
 
 projects[plupload][version] = "1.6"
@@ -268,7 +274,7 @@ projects[plupload][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
 
-projects[robotstxt][version] = "1.1"
+projects[robotstxt][version] = "1.2"
 projects[robotstxt][subdir] = "contrib"
 
 ;projects[follow][version] = "2.x-dev"
@@ -280,7 +286,7 @@ projects[follow][subdir] = "contrib"
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
 
-projects[transliteration][version] = "3.1"
+projects[transliteration][version] = "3.2"
 projects[transliteration][subdir] = "contrib"
 
 projects[web_widgets][version] = "1.0-alpha2"
@@ -289,7 +295,7 @@ projects[web_widgets][subdir] = "contrib"
 projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
 
-projects[session_cache][version] = "1.2"
+projects[session_cache][version] = "1.3"
 projects[session_cache][subdir] ="contrib"
 
 projects[blockcache_alter][version] = "1.0"
@@ -304,13 +310,13 @@ projects[views_fluid_grid][subdir] = "contrib"
 projects[video_filter][version] = "3.1"
 projects[video_filter][subdir] = "contrib"
 
-projects[picture][version] = "1.2"
+projects[picture][version] = "1.5"
 projects[picture][subdir] = "contrib"
 
 projects[rules][version] = "2.6"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.0-beta9"
+projects[metatag][version] = "1.0-rc2"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -325,7 +331,7 @@ projects[metatag][subdir] = "contrib"
 ;projects[omega_ui][version] = "2.x-dev"
 ;projects[omega_ui][subdir] = "contrib"
 
-projects[addanother][version] = "2.1"
+projects[addanother][version] = "2.2"
 projects[addanother][subdir] = "contrib"
 
 projects[node_export][version] = "3.0"
@@ -337,7 +343,7 @@ projects[bundle_copy][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[float_filter][version] = "1.0"
+projects[float_filter][version] = "1.1"
 projects[float_filter][subdir] = "contrib"
 
 projects[linkit][version] = "2.6"
@@ -349,31 +355,31 @@ projects[linkit_target][subdir] = "contrib"
 projects[insert][version] = "1.3"
 projects[insert][subdir] = "contrib"
 
-projects[image_resize_filter][version] = "1.13"
+projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
 
-projects[readmorecontrol][version] = "1.0"
+projects[readmorecontrol][version] = "1.2"
 projects[readmorecontrol][subdir] = "contrib"
 
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
-projects[variable][version] = "2.4"
+projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "3.19"
+projects[webform][version] = "3.20"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.2"
+projects[webform_confirm_email][version] = "1.3"
 projects[webform_confirm_email][subdir] = "contrib"
 
 projects[webform_rules][version] = "1.6"
@@ -400,7 +406,7 @@ projects[workbench_media][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
-projects[devel] = 1.3
+projects[devel] = 1.5
 projects[devel][subdir] = "dev"
 
 projects[search_krumo] = 1.5
@@ -409,7 +415,7 @@ projects[search_krumo][subdir] = "dev"
 projects[styleguide] = 1.1
 projects[styleguide][subdir] = "dev"
 
-projects[masquerade][version] = "1.0-rc5"
+projects[masquerade][version] = "1.0-rc7"
 projects[masquerade][subdir] = "dev"
 
 
