@@ -114,6 +114,9 @@ projects[uuid][subdir] = "contrib"
 projects[uuid_features][version] = "1.0-alpha3"
 projects[uuid_features][subdir] = "contrib"
 
+projects[select_or_other][version] = "2.20"
+projects[select_or_other][subdir] = "contrib"
+
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "dev"
 
