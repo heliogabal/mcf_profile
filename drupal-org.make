@@ -381,6 +381,7 @@ projects[webform_ajax][subdir] = "contrib"
 
 projects[webform_confirm_email][version] = "1.3"
 projects[webform_confirm_email][subdir] = "contrib"
+projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
 projects[webform_rules][version] = "1.6"
 projects[webform_rules][subdir] = "contrib"
