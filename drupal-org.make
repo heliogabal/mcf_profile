@@ -510,11 +510,17 @@ translations[] = sl
 ; +++++ Libraries +++++
 
 ; ColorBox
-libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][directory_name] = "colorbox"
+;libraries[colorbox][type] = "library"
+;libraries[colorbox][destination] = "libraries"
+;libraries[colorbox][download][type] = git
+;libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
+
 libraries[colorbox][type] = "library"
+libraries[colorbox][download][type] = "file"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
-libraries[colorbox][download][type] = git
-libraries[colorbox][download][url] = git://github.com/jackmoore/colorbox.git
 
 ; CKEditor
 libraries[ckeditor][directory_name] = "ckeditor"
