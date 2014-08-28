@@ -37,6 +37,7 @@ dependencies[] = file
 dependencies[] = filter
 dependencies[] = help
 dependencies[] = image
+dependencies[] = jquery_update
 dependencies[] = list
 dependencies[] = locale
 dependencies[] = menu
