@@ -13,5 +13,5 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.31.1.tar.
 ; include mcf profile from github
 projects[make_chocolate_fair][type] = "profile"
 projects[make_chocolate_fair][download][type] = "git"
-projects[make_chocolate_fair][download][url] = "https://github.com/heliogabal/mcf_profile.git"
+projects[make_chocolate_fair][download][url] = "git://github.com/heliogabal/mcf_profile.git"
 projects[make_chocolate_fair][download][branch] = "master"
