@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.4"
+projects[advagg][version] = "2.7"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.5"
@@ -22,7 +22,10 @@ projects[admin_theme][subdir] = "contrib"
 projects[admin_views][version] = "1.3"
 projects[admin_views][subdir] = "contrib"
 
-projects[fpa][version] = "2.5"
+projects[admin_language][version] = "1.0-beta1"
+projects[admin_language][subdir] = "contrib"
+
+projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
 
 projects[feeds][version] = "2.0-alpha8"
@@ -135,6 +138,9 @@ projects[imce_mkdir][subdir] ="contrib"
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
+projects[jquery_update][version] = "2.4"
+projects[jquery_update][subdir] = "contrib"
+
 ;projects[inkota_base][type] = module
 ;projects[inkota_base][location] = http://features.otro-mundo.org/fserver
 ;projects[inkota_base][version] = "1.0-alpha1"
@@ -202,6 +208,12 @@ projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
 
+projects[i18nviews][version] = "3.x-dev"
+projects[i18nviews][subdir] = "contrib"
+
+projects[imagemagick][version] = "1.0"
+projects[imagemagick][subdir] = "contrib"
+
 projects[l10n_update][version] = "1.0"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
@@ -212,6 +224,9 @@ projects[languageicons][subdir] = contrib
 projects[lang_dropdown][version] = 1.5
 projects[lang_dropdown][subdir] = contrib
 
+projects[manualcrop][version] = "1.x-dev"
+projects[manualcrop][subdir] = "contrib"
+
 projects[tmgmt][version] = "1.0-beta2"
 projects[tmgmt][subdir] = "contrib"
 
@@ -221,8 +236,11 @@ projects[translation_overview][subdir] = contrib
 projects[translation_table][version] = 1.0-beta1
 projects[translation_table][subdir] = contrib
 
-projects[breakpoints][version] = "1.2"
+projects[breakpoints][version] = "1.3"
 projects[breakpoints][subdir] = "contrib"
+
+projects[cacheexclude][version] = "2.3"
+projects[cacheexclude][subdir] = "contrib"
 
 projects[entity][version] = "1.5"
 projects[entity][subdir] = "contrib"
@@ -258,6 +276,9 @@ projects[module_filter][subdir] = "contrib"
 
 projects[optimizedb][version] = "1.4"
 projects[optimizedb][subdir] = "contrib"
+
+projects[override_node_options][version] = "1.12"
+projects[override_node_options][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
@@ -379,9 +400,9 @@ projects[webform][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.3"
+projects[webform_confirm_email][version] = "1.4"
 projects[webform_confirm_email][subdir] = "contrib"
-projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
+;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
 projects[webform_rules][version] = "1.6"
 projects[webform_rules][subdir] = "contrib"
