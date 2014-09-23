@@ -214,6 +214,9 @@ projects[i18nviews][subdir] = "contrib"
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
 
+projects[imagecache_actions][version] = "1.4"
+projects[imagecache_actions][subdir] = "contrib"
+
 projects[l10n_update][version] = "1.0"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
@@ -312,6 +315,7 @@ projects[transliteration][subdir] = "contrib"
 
 projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
+projects[web_widgets][patch][] = "https://www.drupal.org/files/quickfix-1622870-0.patch"
 
 projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
