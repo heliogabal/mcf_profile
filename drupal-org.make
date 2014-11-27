@@ -7,7 +7,7 @@ api = "2"
 projects[advagg][version] = "2.7"
 projects[advagg][subdir] = "contrib"
 
-projects[addtoany][version] = "4.5"
+projects[addtoany][version] = "4.6"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc4"
@@ -49,16 +49,16 @@ projects[login_security][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.7"
+projects[colorbox][version] = "2.8"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = "3.3"
+projects[colorbox_node][version] = "3.4"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.5"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.2"
+projects[context][version] = "3.3"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.8"
@@ -67,7 +67,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.6"
+projects[ds][version] = "2.7"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.11"
@@ -111,7 +111,7 @@ projects[features_translations][subdir] = contrib
 projects[features_extra][version] = "1.0-beta1"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-alpha5"
+projects[uuid][version] = "1.0-alpha6"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha3"
@@ -186,7 +186,7 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.0-alpha3"
+projects[media][version] = "2.0-alpha4"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -194,7 +194,7 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-alpha3"
+projects[file_entity][version] = "2.0-beta1"
 projects[file_entity][subdir] = "contrib"
 
 projects[entity_translation][version] = "1.0-beta3"
@@ -217,7 +217,7 @@ projects[imagemagick][subdir] = "contrib"
 projects[imagecache_actions][version] = "1.4"
 projects[imagecache_actions][subdir] = "contrib"
 
-projects[l10n_update][version] = "1.0"
+projects[l10n_update][version] = "1.1"
 projects[l10n_update][subdir] = "contrib"
 ;projects[l10n_update][patch][] = "http://drupal.org/files/1567372-11-l10n_update-integrity-constraint-on-install.patch"
 
@@ -266,7 +266,7 @@ projects[google_fonts][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.2"
+projects[link][version] = "1.3"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -280,7 +280,7 @@ projects[module_filter][subdir] = "contrib"
 projects[optimizedb][version] = "1.4"
 projects[optimizedb][subdir] = "contrib"
 
-projects[override_node_options][version] = "1.12"
+projects[override_node_options][version] = "1.13"
 projects[override_node_options][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
@@ -289,7 +289,7 @@ projects[pathauto][subdir] = "contrib"
 projects[mpac][version] = "1.2"
 projects[mpac][subdir] = "contrib"
 
-projects[pgbar][version] = "1.4"
+projects[pgbar][version] = "1.5"
 projects[pgbar][subdir] = "contrib"
 
 projects[plupload][version] = "1.6"
@@ -342,7 +342,7 @@ projects[picture][subdir] = "contrib"
 ;projects[rules][version] = "2.6"
 ;projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.0-rc2"
+projects[metatag][version] = "1.4"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -369,7 +369,7 @@ projects[addanother][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 projects[wysiwyg][subdir] = "contrib"
 
-projects[float_filter][version] = "1.1"
+projects[float_filter][version] = "1.2"
 projects[float_filter][subdir] = "contrib"
 
 projects[linkit][version] = "2.6"
@@ -399,14 +399,14 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "3.20"
+projects[webform][version] = "3.21"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.4"
-projects[webform_confirm_email][subdir] = "contrib"
+;projects[webform_confirm_email][version] = "1.4"
+;projects[webform_confirm_email][subdir] = "contrib"
 ;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
 ;projects[webform_rules][version] = "1.6"
@@ -459,7 +459,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.2"
+projects[omega][version] = "4.3"
 projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"
