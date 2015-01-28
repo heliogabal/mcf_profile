@@ -10,7 +10,7 @@ projects[advagg][subdir] = "contrib"
 projects[addtoany][version] = "4.6"
 projects[addtoany][subdir] = "contrib"
 
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
 projects[quickbar][version] = "2.0-beta1"
@@ -24,6 +24,9 @@ projects[admin_views][subdir] = "contrib"
 
 projects[admin_language][version] = "1.0-beta1"
 projects[admin_language][subdir] = "contrib"
+
+projects[fitvids][version] = "1.17"
+projects[fitvids][subdir] = contrib
 
 projects[fpa][version] = "2.6"
 projects[fpa][subdir] = "contrib"
@@ -55,10 +58,10 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.4"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.6"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.3"
+projects[context][version] = "3.6"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.8"
@@ -97,7 +100,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.0"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.2"
+projects[features][version] = "2.3"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -138,7 +141,7 @@ projects[imce_mkdir][subdir] ="contrib"
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.4"
+projects[jquery_update][version] = "2.5"
 projects[jquery_update][subdir] = "contrib"
 
 ;projects[inkota_base][type] = module
@@ -177,7 +180,7 @@ projects[jquery_update][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 ;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.0-beta5"
+projects[addressfield][version] = "1.0"
 projects[addressfield][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -197,13 +200,13 @@ projects[media_youtube][subdir] = "contrib"
 projects[file_entity][version] = "2.0-beta1"
 projects[file_entity][subdir] = "contrib"
 
-projects[entity_translation][version] = "1.0-beta3"
+projects[entity_translation][version] = "1.0-beta4"
 projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.11"
+projects[i18n][version] = "1.12"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
@@ -298,7 +301,7 @@ projects[plupload][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
 
-projects[robotstxt][version] = "1.2"
+projects[robotstxt][version] = "1.3"
 projects[robotstxt][subdir] = "contrib"
 
 ;projects[follow][version] = "2.x-dev"
@@ -372,7 +375,7 @@ projects[wysiwyg][subdir] = "contrib"
 projects[float_filter][version] = "1.2"
 projects[float_filter][subdir] = "contrib"
 
-projects[linkit][version] = "2.6"
+projects[linkit][version] = "2.7"
 projects[linkit][subdir] = "contrib"
 
 projects[linkit_target][version] = "1.0"
@@ -405,7 +408,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-;projects[webform_confirm_email][version] = "1.4"
+;projects[webform_confirm_email][version] = "1.5"
 ;projects[webform_confirm_email][subdir] = "contrib"
 ;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
