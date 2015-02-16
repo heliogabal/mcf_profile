@@ -217,7 +217,7 @@ projects[i18nviews][subdir] = "contrib"
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
 
-projects[imagecache_actions][version] = "1.4"
+projects[imagecache_actions][version] = "1.5"
 projects[imagecache_actions][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
@@ -295,7 +295,7 @@ projects[mpac][subdir] = "contrib"
 projects[pgbar][version] = "1.5"
 projects[pgbar][subdir] = "contrib"
 
-projects[plupload][version] = "1.6"
+projects[plupload][version] = "1.7"
 projects[plupload][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
@@ -393,6 +393,9 @@ projects[readmorecontrol][subdir] = "contrib"
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
+projects[service_links][version] = "2.2"
+projects[service_links][subdir] = "contrib"
+
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
@@ -408,8 +411,8 @@ projects[webform][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-;projects[webform_confirm_email][version] = "1.5"
-;projects[webform_confirm_email][subdir] = "contrib"
+projects[webform_confirm_email][version] = "1.5"
+projects[webform_confirm_email][subdir] = "contrib"
 ;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
 ;projects[webform_rules][version] = "1.6"
