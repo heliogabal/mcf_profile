@@ -82,7 +82,7 @@ projects[domain][subdir] = "contrib"
 ;projects[domain_locale][version] = "1.0-beta3"
 ;projects[domain_locale][subdir] = "contrib"
 
-projects[domain_variable][version] = "1.0"
+projects[domain_variable][version] = "1.1"
 projects[domain_variable][subdir] = "contrib"
 
 projects[domain_blocks][version] = "3.0-beta1"
@@ -97,7 +97,7 @@ projects[domain_views][subdir] = "contrib"
 projects[viewfield][version] = "2.0"
 projects[viewfield][subdir] = contrib
 
-projects[views_accordion][version] = "1.0"
+projects[views_accordion][version] = "1.1"
 projects[views_accordion][subdir] = contrib
 
 projects[features][version] = "2.3"
@@ -280,7 +280,7 @@ projects[title][subdir] = "contrib"
 projects[module_filter][version] = "1.8"
 projects[module_filter][subdir] = "contrib"
 
-projects[optimizedb][version] = "1.4"
+projects[optimizedb][version] = "1.5"
 projects[optimizedb][subdir] = "contrib"
 
 projects[override_node_options][version] = "1.13"
@@ -396,7 +396,7 @@ projects[socialshareprivacy][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
