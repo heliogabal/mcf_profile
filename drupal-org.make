@@ -19,7 +19,7 @@ projects[quickbar][subdir] = contrib
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
-projects[admin_views][version] = "1.3"
+projects[admin_views][version] = "1.4"
 projects[admin_views][subdir] = "contrib"
 
 projects[admin_language][version] = "1.0-beta1"
