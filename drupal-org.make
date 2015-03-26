@@ -7,7 +7,7 @@ api = "2"
 projects[advagg][version] = "2.7"
 projects[advagg][subdir] = "contrib"
 
-projects[addtoany][version] = "4.6"
+projects[addtoany][version] = "4.7"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
@@ -100,7 +100,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.1"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.3"
+projects[features][version] = "2.4"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -248,7 +248,7 @@ projects[breakpoints][subdir] = "contrib"
 projects[cacheexclude][version] = "2.3"
 projects[cacheexclude][subdir] = "contrib"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
 ;projects[field-conditional-state][version] = "1.0"
@@ -310,7 +310,7 @@ projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
 ;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
 projects[transliteration][version] = "3.2"
@@ -405,7 +405,7 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "3.21"
+projects[webform][version] = "3.23"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
