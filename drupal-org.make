@@ -58,7 +58,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.4"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.6"
@@ -120,7 +120,7 @@ projects[uuid][subdir] = "contrib"
 projects[uuid_features][version] = "1.0-alpha3"
 projects[uuid_features][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.20"
+projects[select_or_other][version] = "2.21"
 projects[select_or_other][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
@@ -132,7 +132,7 @@ projects[menu_import][subdir] = dev
 projects[imce][version] = "1.9"
 projects[imce][subdir] = "contrib"
 
-projects[imce_plupload][version] = "1.2"
+projects[imce_plupload][version] = "1.3"
 projects[imce_plupload][subdir] = "contrib"
 
 projects[imce_mkdir][version] = "1.0"
@@ -405,7 +405,7 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "3.23"
+projects[webform][version] = "3.24"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
