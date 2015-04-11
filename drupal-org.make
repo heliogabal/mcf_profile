@@ -214,6 +214,9 @@ projects[i18n][subdir] = "contrib"
 projects[i18nviews][version] = "3.x-dev"
 projects[i18nviews][subdir] = "contrib"
 
+projects[imageapi_optimize][version] = 1.2
+projects[imageapi_optimize][subdir] = "contrib"
+
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
 
