@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.7"
+projects[advagg][version] = "2.8"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.7"
@@ -55,7 +55,7 @@ projects[filefield_nginx_progress][subdir] = "contrib"
 projects[colorbox][version] = "2.8"
 projects[colorbox][subdir] = "contrib"
 
-projects[colorbox_node][version] = "3.4"
+projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
 projects[ctools][version] = "1.7"
@@ -70,7 +70,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.7"
+projects[ds][version] = "2.8"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.11"
@@ -100,7 +100,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.1"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.4"
+projects[features][version] = "2.5"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -194,7 +194,7 @@ projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
-projects[media_youtube][version] = "2.0-rc4"
+projects[media_youtube][version] = "2.0-rc5"
 projects[media_youtube][subdir] = "contrib"
 
 projects[file_entity][version] = "2.0-beta1"
@@ -233,7 +233,7 @@ projects[languageicons][subdir] = contrib
 projects[lang_dropdown][version] = 1.5
 projects[lang_dropdown][subdir] = contrib
 
-projects[manualcrop][version] = "1.x-dev"
+projects[manualcrop][version] = "1.5"
 projects[manualcrop][subdir] = "contrib"
 
 ;projects[tmgmt][version] = "1.0-beta2"
@@ -280,7 +280,7 @@ projects[link][subdir] = "contrib"
 projects[title][version] = 1.0-alpha7
 projects[title][subdir] = "contrib"
 
-projects[module_filter][version] = "1.8"
+projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
 projects[optimizedb][version] = "1.5"
@@ -345,8 +345,8 @@ projects[video_filter][subdir] = "contrib"
 projects[picture][version] = "1.5"
 projects[picture][subdir] = "contrib"
 
-;projects[rules][version] = "2.6"
-;projects[rules][subdir] = "contrib"
+projects[rules][version] = "2.9"
+projects[rules][subdir] = "contrib"
 
 projects[metatag][version] = "1.4"
 projects[metatag][subdir] = "contrib"
@@ -396,7 +396,7 @@ projects[readmorecontrol][subdir] = "contrib"
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
-projects[service_links][version] = "2.2"
+projects[service_links][version] = "2.3"
 projects[service_links][subdir] = "contrib"
 
 projects[variable][version] = "2.5"
