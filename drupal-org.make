@@ -120,7 +120,7 @@ projects[uuid][subdir] = "contrib"
 projects[uuid_features][version] = "1.0-alpha3"
 projects[uuid_features][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.21"
+projects[select_or_other][version] = "2.22"
 projects[select_or_other][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
@@ -180,7 +180,7 @@ projects[jquery_update][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 ;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.0"
+projects[addressfield][version] = "1.1"
 projects[addressfield][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -206,7 +206,7 @@ projects[entity_translation][subdir] = "contrib"
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.12"
+projects[i18n][version] = "1.13"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
@@ -402,7 +402,7 @@ projects[service_links][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
@@ -474,6 +474,13 @@ projects[omega][subdir] = "contrib"
 ;projects[mcf_theme][type] = "theme"
 ;projects[mcf_theme][version] = "2.0"
 ;projects[mcf_theme][location] = "http://features.otro-mundo.org/fserver"
+
+projects[mcf_theme][type] = "theme"
+projects[mcf_theme][download][type] = "git"
+projects[mcf_theme][download][url] = "https://github.com/heliogabal/mcf_theme.git"
+projects[mcf_theme][download][branch] = live
+projects[mcf_theme][options][working-copy] = TRUE
+projects[mcf_theme][subdir] = ""
 
 ; poultry
 ;projects[poultry][type] = "theme"
