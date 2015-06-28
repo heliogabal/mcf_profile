@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.8"
+projects[advagg][version] = "2.11"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.7"
@@ -52,7 +52,7 @@ projects[login_security][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.8"
+projects[colorbox][version] = "2.9"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.5"
@@ -70,7 +70,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.8"
+projects[ds][version] = "2.10"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.11"
@@ -100,7 +100,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.1"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.5"
+projects[features][version] = "2.6"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -141,7 +141,7 @@ projects[imce_mkdir][subdir] ="contrib"
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.5"
+projects[jquery_update][version] = "2.6"
 projects[jquery_update][subdir] = "contrib"
 
 ;projects[inkota_base][type] = module
@@ -348,7 +348,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.4"
+projects[metatag][version] = "1.5"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -387,7 +387,7 @@ projects[linkit_target][subdir] = "contrib"
 ;projects[insert][version] = "1.3"
 ;projects[insert][subdir] = "contrib"
 
-projects[image_resize_filter][version] = "1.14"
+projects[image_resize_filter][version] = "1.15"
 projects[image_resize_filter][subdir] = "contrib"
 
 projects[readmorecontrol][version] = "1.2"
