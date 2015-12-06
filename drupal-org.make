@@ -4,10 +4,10 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.11"
+projects[advagg][version] = "2.16"
 projects[advagg][subdir] = "contrib"
 
-projects[addtoany][version] = "4.7"
+projects[addtoany][version] = "4.10"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
@@ -19,7 +19,7 @@ projects[quickbar][subdir] = contrib
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
-projects[admin_views][version] = "1.4"
+projects[admin_views][version] = "1.5"
 projects[admin_views][subdir] = "contrib"
 
 projects[admin_language][version] = "1.0-beta1"
@@ -52,28 +52,28 @@ projects[login_security][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.9"
+projects[colorbox][version] = "2.10"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.9"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.6"
 projects[context][subdir] = "contrib"
 
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.10"
+projects[ds][version] = "2.11"
 projects[ds][subdir] = "contrib"
 
-projects[domain][version] = "3.11"
+projects[domain][version] = "3.12"
 projects[domain][subdir] = "contrib"
 
 ;projects[domain_path][version] = "1.0-beta4"
@@ -85,7 +85,7 @@ projects[domain][subdir] = "contrib"
 projects[domain_variable][version] = "1.1"
 projects[domain_variable][subdir] = "contrib"
 
-projects[domain_blocks][version] = "3.0-beta1"
+projects[domain_blocks][version] = "3.0"
 projects[domain_blocks][subdir] = "contrib"
 
 ;projects[domain_menu_block][version] = "1.0-beta2"
@@ -100,7 +100,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.1"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.6"
+projects[features][version] = "2.7"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -111,10 +111,10 @@ projects[diff][subdir] = contrib
 projects[features_translations][version] = 1.0-beta1
 projects[features_translations][subdir] = contrib
 
-projects[features_extra][version] = "1.0-beta1"
+projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-alpha6"
+projects[uuid][version] = "1.0-beta1"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha3"
@@ -141,7 +141,7 @@ projects[imce_mkdir][subdir] ="contrib"
 projects[imce_wysiwyg][version] = "1.0"
 projects[imce_wysiwyg][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.6"
+projects[jquery_update][version] = "2.7"
 projects[jquery_update][subdir] = "contrib"
 
 ;projects[inkota_base][type] = module
@@ -180,7 +180,7 @@ projects[jquery_update][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 ;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.1"
+projects[addressfield][version] = "1.2"
 projects[addressfield][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -189,15 +189,15 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.0-alpha4"
+projects[media][version] = "2.0-beta1"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
-projects[media_youtube][version] = "2.0-rc5"
+projects[media_youtube][version] = "3.0"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-beta1"
+projects[file_entity][version] = "2.0-beta2"
 projects[file_entity][subdir] = "contrib"
 
 projects[entity_translation][version] = "1.0-beta4"
@@ -260,7 +260,7 @@ projects[entity][subdir] = "contrib"
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
-projects[flexslider][version] = "2.0-alpha3"
+projects[flexslider][version] = "2.0-rc1"
 projects[flexslider][subdir] = "contrib"
 
 projects[globalredirect][version] = "1.5"
@@ -289,7 +289,7 @@ projects[optimizedb][subdir] = "contrib"
 projects[override_node_options][version] = "1.13"
 projects[override_node_options][subdir] = "contrib"
 
-projects[pathauto][version] = "1.2"
+projects[pathauto][version] = "1.3"
 projects[pathauto][subdir] = "contrib"
 
 projects[mpac][version] = "1.2"
@@ -301,7 +301,7 @@ projects[pgbar][subdir] = "contrib"
 projects[plupload][version] = "1.7"
 projects[plupload][subdir] = "contrib"
 
-projects[redirect][version] = "1.0-rc1"
+projects[redirect][version] = "1.0-rc3"
 projects[redirect][subdir] = "contrib"
 
 projects[robotstxt][version] = "1.3"
@@ -323,10 +323,10 @@ projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
 projects[web_widgets][patch][] = "https://www.drupal.org/files/quickfix-1622870-0.patch"
 
-projects[entitycache][version] = "1.2"
+projects[entitycache][version] = "1.5"
 projects[entitycache][subdir] = "contrib"
 
-projects[session_cache][version] = "1.3"
+projects[session_cache][version] = "1.4"
 projects[session_cache][subdir] ="contrib"
 
 projects[blockcache_alter][version] = "1.0"
@@ -342,13 +342,13 @@ projects[views_fluid_grid][subdir] = "contrib"
 projects[video_filter][version] = "3.1"
 projects[video_filter][subdir] = "contrib"
 
-projects[picture][version] = "1.5"
+projects[picture][version] = "2.13"
 projects[picture][subdir] = "contrib"
 
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.5"
+projects[metatag][version] = "1.7"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -387,7 +387,7 @@ projects[linkit_target][subdir] = "contrib"
 ;projects[insert][version] = "1.3"
 ;projects[insert][subdir] = "contrib"
 
-projects[image_resize_filter][version] = "1.15"
+projects[image_resize_filter][version] = "1.16"
 projects[image_resize_filter][subdir] = "contrib"
 
 projects[readmorecontrol][version] = "1.2"
@@ -402,13 +402,13 @@ projects[service_links][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.2"
+projects[views_bulk_operations][version] = "3.3"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "3.24"
+projects[webform][version] = "4.0"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
@@ -424,7 +424,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 1.x-dev
+projects[webform_localization][version] = 4.0
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
@@ -438,6 +438,12 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 
 ;projects[workbench_media][version] = "2.1"
 ;projects[workbench_media][subdir] = "contrib"
+
+projects[cdn][version] = "2.7-beta1"
+projects[cdn][subdir] = "contrib"
+
+projects[boost][version] = "1.0"
+projects[boost][subdir] = "contrib"
 
 ; +++++ Development +++++++
 
@@ -468,7 +474,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 
 ; omega
 projects[omega][type] = "theme"
-projects[omega][version] = "4.3"
+projects[omega][version] = "4.4"
 projects[omega][subdir] = "contrib"
 
 ;projects[mcf_theme][type] = "theme"
