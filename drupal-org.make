@@ -445,6 +445,13 @@ projects[cdn][subdir] = "contrib"
 projects[boost][version] = "1.0"
 projects[boost][subdir] = "contrib"
 
+projects[draggableviews][version] = "2.1"
+projects[draggableviews][subdir] = "contrib"
+
+projects[charts][version] = "2.0-rc1"
+projects[charts][subdir] = "contrib"
+
+
 ; +++++ Development +++++++
 
 ;projects[devel] = 1.5
