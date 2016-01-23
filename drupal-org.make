@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.16"
+projects[advagg][version] = "2.17"
 projects[advagg][subdir] = "contrib"
 
 projects[addtoany][version] = "4.10"
@@ -40,7 +40,7 @@ projects[jcaption][subdir] = "contrib"
 ;projects[job_scheduler][version] = 2.0-alpha3
 ;projects[job_scheduler][subdir] = "contrib"
 
-projects[login_destination][version] = 1.1
+projects[login_destination][version] = 1.4
 projects[login_destination][subdir] = contrib
 
 projects[login_security][version] = "1.9"
@@ -70,7 +70,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.11"
+projects[ds][version] = "2.12"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.12"
@@ -132,7 +132,7 @@ projects[menu_import][subdir] = dev
 projects[imce][version] = "1.9"
 projects[imce][subdir] = "contrib"
 
-projects[imce_plupload][version] = "1.3"
+projects[imce_plupload][version] = "2.0"
 projects[imce_plupload][subdir] = "contrib"
 
 projects[imce_mkdir][version] = "1.0"
@@ -245,7 +245,7 @@ projects[manualcrop][subdir] = "contrib"
 ;projects[translation_table][version] = 1.0-beta1
 ;projects[translation_table][subdir] = contrib
 
-projects[breakpoints][version] = "1.3"
+projects[breakpoints][version] = "1.4"
 projects[breakpoints][subdir] = "contrib"
 
 projects[cacheexclude][version] = "2.3"
@@ -257,7 +257,7 @@ projects[entity][subdir] = "contrib"
 ;projects[field-conditional-state][version] = "1.0"
 ;projects[field-conditional-state][subdir] = "contrib"
 
-projects[field_group][version] = "1.4"
+projects[field_group][version] = "1.5"
 projects[field_group][subdir] = "contrib"
 
 projects[flexslider][version] = "2.0-rc1"
@@ -272,7 +272,7 @@ projects[google_fonts][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.3"
+projects[link][version] = "1.4"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -323,7 +323,7 @@ projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
 projects[web_widgets][patch][] = "https://www.drupal.org/files/quickfix-1622870-0.patch"
 
-projects[entitycache][version] = "1.5"
+projects[entitycache][version] = "1.2"
 projects[entitycache][subdir] = "contrib"
 
 projects[session_cache][version] = "1.4"
@@ -348,7 +348,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.7"
+projects[metatag][version] = "1.10"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -424,7 +424,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 4.0
+projects[webform_localization][version] = 4.2
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
