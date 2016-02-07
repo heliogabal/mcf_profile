@@ -466,6 +466,13 @@ projects[charts][subdir] = "contrib"
 ;projects[masquerade][version] = "1.0-rc7"
 ;projects[masquerade][subdir] = "dev"
 
+; +++++ Features +++++
+projects[mcf_tweaks][type] = module
+projects[mcf_tweaks][download][type] = "git"
+projects[mcf_tweaks][download][url] = "https://github.com/heliogabal/mcf_tweaks.git"
+projects[mcf_tweaks][subdir] = "features"
+projects[mcf_tweaks][options][working-copy] = TRUE
+
 
 ; +++++ Themes +++++
 
@@ -539,6 +546,7 @@ translations[] = pl
 translations[] = ro
 translations[] = sk
 translations[] = sl
+translations[] = fr
 
 ; +++++ Libraries +++++
 
