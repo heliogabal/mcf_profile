@@ -7,7 +7,7 @@ api = "2"
 projects[advagg][version] = "2.17"
 projects[advagg][subdir] = "contrib"
 
-projects[addtoany][version] = "4.10"
+projects[addtoany][version] = "4.11"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
@@ -70,7 +70,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.12"
+projects[ds][version] = "2.13"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.12"
@@ -211,7 +211,7 @@ projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
 
-projects[i18nviews][version] = "3.x-dev"
+projects[i18nviews][version] = "3.0-alpha1"
 projects[i18nviews][subdir] = "contrib"
 
 projects[imageapi_optimize][version] = 1.2
@@ -220,7 +220,7 @@ projects[imageapi_optimize][subdir] = "contrib"
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
 
-projects[imagecache_actions][version] = "1.5"
+projects[imagecache_actions][version] = "1.7"
 projects[imagecache_actions][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
@@ -283,7 +283,7 @@ projects[title][subdir] = "contrib"
 projects[module_filter][version] = "2.0"
 projects[module_filter][subdir] = "contrib"
 
-projects[optimizedb][version] = "1.5"
+projects[optimizedb][version] = "1.6"
 projects[optimizedb][subdir] = "contrib"
 
 projects[override_node_options][version] = "1.13"
@@ -348,7 +348,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.10"
+projects[metatag][version] = "1.13"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -439,7 +439,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 ;projects[workbench_media][version] = "2.1"
 ;projects[workbench_media][subdir] = "contrib"
 
-projects[cdn][version] = "2.7-beta1"
+projects[cdn][version] = "2.7"
 projects[cdn][subdir] = "contrib"
 
 projects[boost][version] = "1.0"
@@ -551,12 +551,6 @@ translations[] = fr
 ; +++++ Libraries +++++
 
 ; ColorBox
-;libraries[colorbox][directory_name] = "colorbox"
-;libraries[colorbox][type] = "library"
-;libraries[colorbox][destination] = "libraries"
-;libraries[colorbox][download][type] = git
-;libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
-
 libraries[colorbox][type] = "library"
 libraries[colorbox][download][type] = "file"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
@@ -582,3 +576,23 @@ libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "http://github.com/woothemes/FlexSlider/zipball/master"
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
+
+; fitvids
+libraries[fitvids][download][type] = "get"
+libraries[fitvids][download][url] = "https://raw.githubusercontent.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][type] = "library"
+
+; jQuery imagesLoaded.
+libraries[imagesloaded][download][type] = file
+libraries[imagesloaded][download][url] = https://github.com/desandro/imagesloaded/archive/v2.1.2.tar.gz
+libraries[imagesloaded][download][subtree] = imagesloaded-2.1.2
+libraries[imagesloaded][directory_name] = "imagesloaded"
+libraries[imagesloaded][destination] = "libraries"
+
+; imgAreaSelect for manualcrop
+libraries[jquery.imgareaselect][download][type] = file
+libraries[jquery.imgareaselect][download][url] = https://github.com/odyniec/imgareaselect/archive/v0.9.11-rc.1.zip
+libraries[jquery.imgareaselect][download][subtree] = imgareaselect-0.9.11-rc.1
+libraries[jquery.imgareaselect][directory_name] = "jquery.imgareaselect"
+libraries[jquery.imgareaselect][destination] = "libraries"
