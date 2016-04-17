@@ -7,7 +7,7 @@ api = "2"
 projects[advagg][version] = "2.17"
 projects[advagg][subdir] = "contrib"
 
-projects[addtoany][version] = "4.11"
+projects[addtoany][version] = "4.12"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
@@ -100,7 +100,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.1"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.7"
+projects[features][version] = "2.9"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -129,7 +129,7 @@ projects[strongarm][subdir] = "dev"
 projects[menu_import][version] = "1.5"
 projects[menu_import][subdir] = dev
 
-projects[imce][version] = "1.9"
+projects[imce][version] = "1.10"
 projects[imce][subdir] = "contrib"
 
 projects[imce_plupload][version] = "2.0"
@@ -251,7 +251,7 @@ projects[breakpoints][subdir] = "contrib"
 projects[cacheexclude][version] = "2.3"
 projects[cacheexclude][subdir] = "contrib"
 
-projects[entity][version] = "1.6"
+projects[entity][version] = "1.7"
 projects[entity][subdir] = "contrib"
 
 ;projects[field-conditional-state][version] = "1.0"
@@ -277,7 +277,8 @@ projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
-projects[title][version] = 1.0-alpha7
+projects[title][version] = 1.0-alpha8
+projects[title][patch][] = "https://www.drupal.org/files/issues/2267251-27.patch"
 projects[title][subdir] = "contrib"
 
 projects[module_filter][version] = "2.0"
@@ -339,7 +340,7 @@ projects[views_content_cache][subdir] = "contrib"
 projects[views_fluid_grid][version] = "3.0"
 projects[views_fluid_grid][subdir] = "contrib"
 
-projects[video_filter][version] = "3.1"
+projects[video_filter][version] = "3.3"
 projects[video_filter][subdir] = "contrib"
 
 projects[picture][version] = "2.13"
@@ -348,7 +349,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.13"
+projects[metatag][version] = "1.14"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -424,7 +425,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 4.2
+projects[webform_localization][version] = 4.3
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
@@ -442,7 +443,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 projects[cdn][version] = "2.7"
 projects[cdn][subdir] = "contrib"
 
-projects[boost][version] = "1.0"
+projects[boost][version] = "1.1"
 projects[boost][subdir] = "contrib"
 
 projects[draggableviews][version] = "2.1"
