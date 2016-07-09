@@ -7,6 +7,9 @@ api = "2"
 projects[advagg][version] = "2.17"
 projects[advagg][subdir] = "contrib"
 
+projects[httprl][version] = "1.14"
+patch[httprl][subdir] = "contrib"
+
 projects[addtoany][version] = "4.12"
 projects[addtoany][subdir] = "contrib"
 
@@ -128,6 +131,9 @@ projects[strongarm][subdir] = "dev"
 
 projects[menu_import][version] = "1.5"
 projects[menu_import][subdir] = dev
+
+projects[node_revision_delete][version] = "2.6"
+projects[node_revision_delete][subdir] = "contrib"
 
 projects[imce][version] = "1.10"
 projects[imce][subdir] = "contrib"
@@ -324,8 +330,9 @@ projects[web_widgets][version] = "1.0-alpha2"
 projects[web_widgets][subdir] = "contrib"
 projects[web_widgets][patch][] = "https://www.drupal.org/files/quickfix-1622870-0.patch"
 
-projects[entitycache][version] = "1.2"
-projects[entitycache][subdir] = "contrib"
+; o_contrib_seven
+;projects[entitycache][version] = "1.5"
+;projects[entitycache][subdir] = "contrib"
 
 projects[session_cache][version] = "1.4"
 projects[session_cache][subdir] ="contrib"
@@ -409,7 +416,7 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "4.0"
+projects[webform][version] = "4.12"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
