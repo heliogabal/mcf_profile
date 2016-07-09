@@ -16,7 +16,7 @@ projects[addtoany][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
-projects[quickbar][version] = "2.0-beta1"
+projects[quickbar][version] = "2.0-beta2"
 projects[quickbar][subdir] = contrib
 
 projects[admin_theme][version] = "1.0"
@@ -55,7 +55,7 @@ projects[login_security][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.10"
+projects[colorbox][version] = "2.12"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.5"
@@ -64,7 +64,7 @@ projects[colorbox_node][subdir] = "contrib"
 projects[ctools][version] = "1.9"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.6"
+projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.9"
@@ -73,7 +73,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.13"
+projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.12"
@@ -103,7 +103,7 @@ projects[viewfield][subdir] = contrib
 projects[views_accordion][version] = "1.1"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.9"
+projects[features][version] = "2.10"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -195,7 +195,7 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta1"
+projects[media][version] = "2.0-beta2"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -203,10 +203,10 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "3.0"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-beta2"
+projects[file_entity][version] = "2.0-beta3"
 projects[file_entity][subdir] = "contrib"
 
-projects[entity_translation][version] = "1.0-beta4"
+projects[entity_translation][version] = "1.0-beta5"
 projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
@@ -275,7 +275,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
 
-projects[libraries][version] = "2.2"
+projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.4"
@@ -347,7 +347,7 @@ projects[views_content_cache][subdir] = "contrib"
 projects[views_fluid_grid][version] = "3.0"
 projects[views_fluid_grid][subdir] = "contrib"
 
-projects[video_filter][version] = "3.3"
+projects[video_filter][version] = "3.4"
 projects[video_filter][subdir] = "contrib"
 
 projects[picture][version] = "2.13"
@@ -356,7 +356,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.14"
+projects[metatag][version] = "1.17"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -410,7 +410,7 @@ projects[service_links][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.13"
+projects[views][version] = "3.14"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.3"
@@ -422,7 +422,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.5"
+projects[webform_confirm_email][version] = "1.6"
 projects[webform_confirm_email][subdir] = "contrib"
 ;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
@@ -432,7 +432,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 4.3
+projects[webform_localization][version] = 4.6
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
@@ -447,7 +447,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 ;projects[workbench_media][version] = "2.1"
 ;projects[workbench_media][subdir] = "contrib"
 
-projects[cdn][version] = "2.7"
+projects[cdn][version] = "2.8"
 projects[cdn][subdir] = "contrib"
 
 projects[boost][version] = "1.1"
