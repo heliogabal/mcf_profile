@@ -22,10 +22,10 @@ projects[quickbar][subdir] = contrib
 projects[admin_theme][version] = "1.0"
 projects[admin_theme][subdir] = "contrib"
 
-projects[admin_views][version] = "1.5"
+projects[admin_views][version] = "1.6"
 projects[admin_views][subdir] = "contrib"
 
-projects[admin_language][version] = "1.0-beta1"
+projects[admin_language][version] = "1.0-beta3"
 projects[admin_language][subdir] = "contrib"
 
 projects[fitvids][version] = "1.17"
@@ -61,7 +61,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.9"
+projects[ctools][version] = "1.10"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.7"
@@ -117,7 +117,7 @@ projects[features_translations][subdir] = contrib
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-beta1"
+projects[uuid][version] = "1.0-beta2"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha3"
@@ -416,13 +416,13 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.3"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "4.12"
+projects[webform][version] = "4.13"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "1.6"
+projects[webform_confirm_email][version] = "2.4"
 projects[webform_confirm_email][subdir] = "contrib"
 ;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
