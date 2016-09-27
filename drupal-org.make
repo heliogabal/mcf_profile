@@ -96,6 +96,7 @@ projects[domain_blocks][subdir] = "contrib"
 
 projects[domain_views][version] = "1.5"
 projects[domain_views][subdir] = "contrib"
+projects[domain_views][patch] = "https://www.drupal.org/files/domain_views-fix-views_form_wizard-plugin-path-1824914-1.patch"
 
 projects[viewfield][version] = "2.0"
 projects[viewfield][subdir] = contrib
