@@ -151,6 +151,9 @@ projects[imce_wysiwyg][subdir] = "contrib"
 projects[jquery_update][version] = "2.7"
 projects[jquery_update][subdir] = "contrib"
 
+projects[jquery_ui_filter][version] = "1.0"
+projects[jquery_ui_filter][subdir] = "contrib"
+
 ;projects[inkota_base][type] = module
 ;projects[inkota_base][location] = http://features.otro-mundo.org/fserver
 ;projects[inkota_base][version] = "1.0-alpha1"
