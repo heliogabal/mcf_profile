@@ -463,6 +463,24 @@ projects[draggableviews][subdir] = "contrib"
 projects[charts][version] = "2.0-rc1"
 projects[charts][subdir] = "contrib"
 
+projects[mailsystem][version] = "2.34"
+projects[mailsystem][subdir] = "contrib"
+
+projects[mimemail][version] = "1.0-beta4"
+projects[mimemail][subdir] = "contrib"
+
+projects[chosen][version] = "2.0"
+projects[chosen][subdir] = "contrib"
+
+projects[smtp][version] = "1.4"
+projects[smtp][subdir] = "contrib"
+
+projects[antibot][version] = "1.0"
+projects[antibot][subdir] = "contrib"
+
+projects[wysiwyg_codesnippet][version] = "1.1"
+projects[wysiwyg_codesnippet][subdir] = "contrib"
+
 
 ; +++++ Development +++++++
 
