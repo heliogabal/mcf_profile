@@ -4,13 +4,13 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.17"
+projects[advagg][version] = "2.19"
 projects[advagg][subdir] = "contrib"
 
 projects[httprl][version] = "1.14"
 patch[httprl][subdir] = "contrib"
 
-projects[addtoany][version] = "4.12"
+projects[addtoany][version] = "4.14"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc5"
@@ -25,7 +25,7 @@ projects[admin_theme][subdir] = "contrib"
 projects[admin_views][version] = "1.6"
 projects[admin_views][subdir] = "contrib"
 
-projects[admin_language][version] = "1.0-beta3"
+projects[admin_language][version] = "1.0-beta4"
 projects[admin_language][subdir] = "contrib"
 
 projects[fitvids][version] = "1.17"
@@ -61,7 +61,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.10"
+projects[ctools][version] = "1.12"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.7"
@@ -109,7 +109,7 @@ projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
-projects[diff][version] = 3.2
+projects[diff][version] = 3.3
 projects[diff][subdir] = contrib
 
 projects[features_translations][version] = 1.0-beta1
@@ -199,7 +199,7 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta2"
+projects[media][version] = "2.0-beta14"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -216,7 +216,7 @@ projects[entity_translation][subdir] = "contrib"
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.13"
+projects[i18n][version] = "1.14"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
@@ -243,7 +243,7 @@ projects[languageicons][subdir] = contrib
 projects[lang_dropdown][version] = 1.5
 projects[lang_dropdown][subdir] = contrib
 
-projects[manualcrop][version] = "1.5"
+projects[manualcrop][version] = "1.6"
 projects[manualcrop][subdir] = "contrib"
 
 ;projects[tmgmt][version] = "1.0-beta2"
@@ -261,7 +261,7 @@ projects[breakpoints][subdir] = "contrib"
 projects[cacheexclude][version] = "2.3"
 projects[cacheexclude][subdir] = "contrib"
 
-projects[entity][version] = "1.7"
+projects[entity][version] = "1.8"
 projects[entity][subdir] = "contrib"
 
 ;projects[field-conditional-state][version] = "1.0"
@@ -360,7 +360,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.17"
+projects[metatag][version] = "1.18"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -436,7 +436,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 4.6
+projects[webform_localization][version] = 4.10
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
@@ -451,7 +451,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 ;projects[workbench_media][version] = "2.1"
 ;projects[workbench_media][subdir] = "contrib"
 
-projects[cdn][version] = "2.8"
+projects[cdn][version] = "2.9"
 projects[cdn][subdir] = "contrib"
 
 projects[boost][version] = "1.1"
