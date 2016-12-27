@@ -199,7 +199,7 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.0-beta14"
+projects[media][version] = "2.0-rc1"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -426,7 +426,7 @@ projects[webform][subdir] = "contrib"
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "2.4"
+projects[webform_confirm_email][version] = "2.5"
 projects[webform_confirm_email][subdir] = "contrib"
 ;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
@@ -472,7 +472,7 @@ projects[mimemail][subdir] = "contrib"
 projects[chosen][version] = "2.0"
 projects[chosen][subdir] = "contrib"
 
-projects[smtp][version] = "1.4"
+projects[smtp][version] = "1.6"
 projects[smtp][subdir] = "contrib"
 
 projects[antibot][version] = "1.0"
