@@ -324,6 +324,12 @@ projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
 ;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
+projects[tablefield][version] = "2.5"
+projects[tablefield][subdir] = "contrib"
+
+projects[responsive_tables_filter][version] = "1.8"
+projects[responsive_tables_filter][subdir] = "contrib"
+
 projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
