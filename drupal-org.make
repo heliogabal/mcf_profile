@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.19"
+projects[advagg][version] = "2.32"
 projects[advagg][subdir] = "contrib"
 
 projects[httprl][version] = "1.14"
@@ -55,19 +55,19 @@ projects[login_security][subdir] = "contrib"
 projects[filefield_nginx_progress][version] = "2.3"
 projects[filefield_nginx_progress][subdir] = "contrib"
 
-projects[colorbox][version] = "2.12"
+projects[colorbox][version] = "2.13"
 projects[colorbox][subdir] = "contrib"
 
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.12"
+projects[ctools][version] = "1.14"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.7"
 projects[context][subdir] = "contrib"
 
-projects[date][version] = "2.9"
+projects[date][version] = "2.10"
 projects[date][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.0-rc4"
@@ -76,7 +76,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[ds][version] = "2.14"
 projects[ds][subdir] = "contrib"
 
-projects[domain][version] = "3.12"
+projects[domain][version] = "3.14"
 projects[domain][subdir] = "contrib"
 
 ;projects[domain_path][version] = "1.0-beta4"
@@ -98,7 +98,7 @@ projects[domain_views][version] = "1.5"
 projects[domain_views][subdir] = "contrib"
 projects[domain_views][patch] = "https://www.drupal.org/files/domain_views-fix-views_form_wizard-plugin-path-1824914-1.patch"
 
-projects[viewfield][version] = "2.0"
+projects[viewfield][version] = "2.1"
 projects[viewfield][subdir] = contrib
 
 projects[views_accordion][version] = "1.1"
@@ -118,13 +118,13 @@ projects[features_translations][subdir] = contrib
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-beta2"
+projects[uuid][version] = "1.0"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha3"
 projects[uuid_features][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.22"
+projects[select_or_other][version] = "2.23"
 projects[select_or_other][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
@@ -133,10 +133,10 @@ projects[strongarm][subdir] = "dev"
 projects[menu_import][version] = "1.5"
 projects[menu_import][subdir] = dev
 
-projects[node_revision_delete][version] = "2.6"
+projects[node_revision_delete][version] = "2.7"
 projects[node_revision_delete][subdir] = "contrib"
 
-projects[imce][version] = "1.10"
+projects[imce][version] = "1.11"
 projects[imce][subdir] = "contrib"
 
 projects[imce_plupload][version] = "2.0"
@@ -199,24 +199,24 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.0-rc1"
+projects[media][version] = "2.16"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
-projects[media_youtube][version] = "3.0"
+projects[media_youtube][version] = "3.7"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.0-beta3"
+projects[file_entity][version] = "2.16"
 projects[file_entity][subdir] = "contrib"
 
-projects[entity_translation][version] = "1.0-beta5"
+projects[entity_translation][version] = "1.0-beta7"
 projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.14"
+projects[i18n][version] = "1.22"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
@@ -224,13 +224,13 @@ projects[i18n][subdir] = "contrib"
 projects[i18nviews][version] = "3.0-alpha1"
 projects[i18nviews][subdir] = "contrib"
 
-projects[imageapi_optimize][version] = 1.2
+projects[imageapi_optimize][version] = 1.3
 projects[imageapi_optimize][subdir] = "contrib"
 
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
 
-projects[imagecache_actions][version] = "1.7"
+projects[imagecache_actions][version] = "1.8"
 projects[imagecache_actions][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
@@ -240,10 +240,10 @@ projects[l10n_update][subdir] = "contrib"
 projects[languageicons][version] = 1.1
 projects[languageicons][subdir] = contrib
 
-projects[lang_dropdown][version] = 1.5
+projects[lang_dropdown][version] = 2.6
 projects[lang_dropdown][subdir] = contrib
 
-projects[manualcrop][version] = "1.6"
+projects[manualcrop][version] = "1.7"
 projects[manualcrop][subdir] = "contrib"
 
 ;projects[tmgmt][version] = "1.0-beta2"
@@ -261,19 +261,19 @@ projects[breakpoints][subdir] = "contrib"
 projects[cacheexclude][version] = "2.3"
 projects[cacheexclude][subdir] = "contrib"
 
-projects[entity][version] = "1.8"
+projects[entity][version] = "1.9"
 projects[entity][subdir] = "contrib"
 
 ;projects[field-conditional-state][version] = "1.0"
 ;projects[field-conditional-state][subdir] = "contrib"
 
-projects[field_group][version] = "1.5"
+projects[field_group][version] = "1.6"
 projects[field_group][subdir] = "contrib"
 
-projects[flexslider][version] = "2.0-rc1"
+projects[flexslider][version] = "2.0-rc2"
 projects[flexslider][subdir] = "contrib"
 
-projects[globalredirect][version] = "1.5"
+projects[globalredirect][version] = "1.6"
 projects[globalredirect][subdir] = "contrib"
 
 projects[google_fonts][version] = "2.3"
@@ -287,11 +287,11 @@ projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
-projects[title][version] = 1.0-alpha8
+projects[title][version] = 1.0-alpha9
 projects[title][patch][] = "https://www.drupal.org/files/issues/2267251-27.patch"
 projects[title][subdir] = "contrib"
 
-projects[module_filter][version] = "2.0"
+projects[module_filter][version] = "2.1"
 projects[module_filter][subdir] = "contrib"
 
 projects[optimizedb][version] = "1.6"
@@ -306,7 +306,7 @@ projects[pathauto][subdir] = "contrib"
 projects[mpac][version] = "1.2"
 projects[mpac][subdir] = "contrib"
 
-projects[pgbar][version] = "1.5"
+projects[pgbar][version] = "2.0"
 projects[pgbar][subdir] = "contrib"
 
 projects[plupload][version] = "1.7"
@@ -315,7 +315,7 @@ projects[plupload][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc3"
 projects[redirect][subdir] = "contrib"
 
-projects[robotstxt][version] = "1.3"
+projects[robotstxt][version] = "1.4"
 projects[robotstxt][subdir] = "contrib"
 
 ;projects[follow][version] = "2.x-dev"
@@ -324,13 +324,13 @@ projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
 ;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
-projects[tablefield][version] = "2.5"
+projects[tablefield][version] = "3.1"
 projects[tablefield][subdir] = "contrib"
 
-projects[responsive_tables_filter][version] = "1.8"
+projects[responsive_tables_filter][version] = "1.9"
 projects[responsive_tables_filter][subdir] = "contrib"
 
-projects[token][version] = "1.6"
+projects[token][version] = "1.7"
 projects[token][subdir] = "contrib"
 
 projects[transliteration][version] = "3.2"
@@ -344,7 +344,7 @@ projects[web_widgets][patch][] = "https://www.drupal.org/files/quickfix-1622870-
 ;projects[entitycache][version] = "1.5"
 ;projects[entitycache][subdir] = "contrib"
 
-projects[session_cache][version] = "1.4"
+projects[session_cache][version] = "1.6"
 projects[session_cache][subdir] ="contrib"
 
 projects[blockcache_alter][version] = "1.0"
@@ -366,7 +366,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.18"
+projects[metatag][version] = "1.22"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -390,7 +390,7 @@ projects[addanother][subdir] = "contrib"
 ;projects[bundle_copy][version] = "1.1"
 ;projects[bundle_copy][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.4"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[float_filter][version] = "1.2"
@@ -420,19 +420,19 @@ projects[service_links][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.14"
+projects[views][version] = "3.18"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.3"
+projects[views_bulk_operations][version] = "3.4"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "4.13"
+projects[webform][version] = "4.16"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
 projects[webform_ajax][subdir] = "contrib"
 
-projects[webform_confirm_email][version] = "2.5"
+projects[webform_confirm_email][version] = "2.11"
 projects[webform_confirm_email][subdir] = "contrib"
 ;projects[webform_confirm_email][patch][] = "https://www.drupal.org/files/webform_confirm_email_update_from_dev_to_1_2.patch"
 
@@ -457,7 +457,7 @@ projects[compact_forms][patch][] = "http://drupal.org/files/compact_forms_email_
 ;projects[workbench_media][version] = "2.1"
 ;projects[workbench_media][subdir] = "contrib"
 
-projects[cdn][version] = "2.9"
+projects[cdn][version] = "2.10"
 projects[cdn][subdir] = "contrib"
 
 projects[boost][version] = "1.1"
@@ -475,10 +475,10 @@ projects[mailsystem][subdir] = "contrib"
 projects[mimemail][version] = "1.0-beta4"
 projects[mimemail][subdir] = "contrib"
 
-projects[chosen][version] = "2.0"
+projects[chosen][version] = "2.1"
 projects[chosen][subdir] = "contrib"
 
-projects[smtp][version] = "1.6"
+projects[smtp][version] = "1.7"
 projects[smtp][subdir] = "contrib"
 
 projects[antibot][version] = "1.0"
