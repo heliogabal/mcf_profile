@@ -5,7 +5,7 @@ core = 7.x
 
 projects[drupal][type] = core
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.57.1.zip"
+projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.58.1.zip"
 
 ; Make sure to add new patches to the /patches folder when adding or updating patches below.
 
