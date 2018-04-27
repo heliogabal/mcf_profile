@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[advagg][version] = "2.32"
+projects[advagg][version] = "2.33"
 projects[advagg][subdir] = "contrib"
 
 projects[httprl][version] = "1.14"
@@ -73,7 +73,7 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.14"
+projects[ds][version] = "2.15"
 projects[ds][subdir] = "contrib"
 
 projects[domain][version] = "3.14"
@@ -207,16 +207,16 @@ projects[media][subdir] = "contrib"
 projects[media_youtube][version] = "3.7"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.16"
+projects[file_entity][version] = "2.20"
 projects[file_entity][subdir] = "contrib"
 
-projects[entity_translation][version] = "1.0-beta7"
+projects[entity_translation][version] = "1.0"
 projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.22"
+projects[i18n][version] = "1.24"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
@@ -230,7 +230,7 @@ projects[imageapi_optimize][subdir] = "contrib"
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
 
-projects[imagecache_actions][version] = "1.8"
+projects[imagecache_actions][version] = "1.9"
 projects[imagecache_actions][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
@@ -255,7 +255,7 @@ projects[manualcrop][subdir] = "contrib"
 ;projects[translation_table][version] = 1.0-beta1
 ;projects[translation_table][subdir] = contrib
 
-projects[breakpoints][version] = "1.4"
+projects[breakpoints][version] = "1.6"
 projects[breakpoints][subdir] = "contrib"
 
 projects[cacheexclude][version] = "2.3"
@@ -297,7 +297,7 @@ projects[module_filter][subdir] = "contrib"
 projects[optimizedb][version] = "1.6"
 projects[optimizedb][subdir] = "contrib"
 
-projects[override_node_options][version] = "1.13"
+projects[override_node_options][version] = "1.14"
 projects[override_node_options][subdir] = "contrib"
 
 projects[pathauto][version] = "1.3"
@@ -366,7 +366,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[metatag][version] = "1.22"
+projects[metatag][version] = "1.25"
 projects[metatag][subdir] = "contrib"
 
 ;projects[tagclouds][version] = "1.9"
@@ -390,7 +390,7 @@ projects[addanother][subdir] = "contrib"
 ;projects[bundle_copy][version] = "1.1"
 ;projects[bundle_copy][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.4"
+projects[wysiwyg][version] = "2.5"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[float_filter][version] = "1.2"
@@ -420,13 +420,13 @@ projects[service_links][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.18"
+projects[views][version] = "3.20"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.4"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "4.16"
+projects[webform][version] = "4.17"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
@@ -442,7 +442,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 4.10
+projects[webform_localization][version] = 4.11
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
@@ -466,7 +466,7 @@ projects[boost][subdir] = "contrib"
 projects[draggableviews][version] = "2.1"
 projects[draggableviews][subdir] = "contrib"
 
-projects[charts][version] = "2.0-rc1"
+projects[charts][version] = "2.0"
 projects[charts][subdir] = "contrib"
 
 projects[mailsystem][version] = "2.34"
