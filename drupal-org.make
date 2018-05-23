@@ -282,7 +282,7 @@ projects[google_fonts][subdir] = "contrib"
 projects[libraries][version] = "2.3"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.4"
+projects[link][version] = "1.5"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -423,7 +423,7 @@ projects[variable][subdir] = "contrib"
 projects[views][version] = "3.20"
 projects[views][subdir] = "contrib"
 
-projects[views_bulk_operations][version] = "3.4"
+projects[views_bulk_operations][version] = "3.5"
 projects[views_bulk_operations][subdir] = "contrib"
 
 projects[webform][version] = "4.17"
@@ -442,7 +442,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 4.11
+projects[webform_localization][version] = 4.13
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
