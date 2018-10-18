@@ -118,13 +118,13 @@ projects[features_translations][subdir] = contrib
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.0"
+projects[uuid][version] = "1.2"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha3"
 projects[uuid_features][subdir] = "contrib"
 
-projects[select_or_other][version] = "2.23"
+projects[select_or_other][version] = "2.24"
 projects[select_or_other][subdir] = "contrib"
 
 projects[strongarm][version] = "2.0"
