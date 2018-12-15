@@ -13,7 +13,7 @@ patch[httprl][subdir] = "contrib"
 projects[addtoany][version] = "4.14"
 projects[addtoany][subdir] = "contrib"
 
-projects[admin_menu][version] = "3.0-rc5"
+projects[admin_menu][version] = "3.0-rc6"
 projects[admin_menu][subdir] = "contrib"
 
 projects[quickbar][version] = "2.0-beta2"
@@ -101,7 +101,7 @@ projects[domain_views][patch] = "https://www.drupal.org/files/domain_views-fix-v
 projects[viewfield][version] = "2.1"
 projects[viewfield][subdir] = contrib
 
-projects[views_accordion][version] = "1.1"
+projects[views_accordion][version] = "1.2"
 projects[views_accordion][subdir] = contrib
 
 projects[features][version] = "2.10"
@@ -109,7 +109,7 @@ projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
 
-projects[diff][version] = 3.3
+projects[diff][version] = 3.4
 projects[diff][subdir] = contrib
 
 projects[features_translations][version] = 1.0-beta1
@@ -199,7 +199,7 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.20"
+projects[media][version] = "2.21"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
@@ -279,7 +279,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
 
-projects[libraries][version] = "2.3"
+projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
 projects[link][version] = "1.5"
@@ -347,7 +347,7 @@ projects[web_widgets][patch][] = "https://www.drupal.org/files/quickfix-1622870-
 projects[session_cache][version] = "1.6"
 projects[session_cache][subdir] ="contrib"
 
-projects[blockcache_alter][version] = "1.0"
+projects[blockcache_alter][version] = "1.1"
 projects[blockcache_alter][subdir] = "contrib"
 projects[blockcache_alter][patch][] = "https://www.drupal.org/files/patch_to_bug_1272098.patch"
 
@@ -469,7 +469,7 @@ projects[draggableviews][subdir] = "contrib"
 projects[charts][version] = "2.0"
 projects[charts][subdir] = "contrib"
 
-projects[mailsystem][version] = "2.34"
+projects[mailsystem][version] = "2.35"
 projects[mailsystem][subdir] = "contrib"
 
 projects[mimemail][version] = "1.0-beta4"
@@ -481,7 +481,7 @@ projects[chosen][subdir] = "contrib"
 projects[smtp][version] = "1.7"
 projects[smtp][subdir] = "contrib"
 
-projects[antibot][version] = "1.0"
+projects[antibot][version] = "1.2"
 projects[antibot][subdir] = "contrib"
 
 projects[wysiwyg_codesnippet][version] = "1.1"
