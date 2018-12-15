@@ -426,7 +426,7 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.5"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "4.17"
+projects[webform][version] = "4.18"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
@@ -442,7 +442,7 @@ projects[webform_confirm_email][subdir] = "contrib"
 projects[webform_simplenews][version] = "1.x-dev"
 projects[webform_simplenews][subdir] = "contrib"
 
-projects[webform_localization][version] = 4.13
+projects[webform_localization][version] = 4.14
 projects[webform_localization][subdir] = contrib
 ; Submit Button localize fix https://drupal.org/node/1997172
 ;projects[webform_localization][patch][] = http://drupal.org/files/webform_localization-stop-settings-change-for-non-default-language-1997172-2.patch
