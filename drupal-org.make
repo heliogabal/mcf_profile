@@ -349,7 +349,7 @@ projects[session_cache][subdir] ="contrib"
 
 projects[blockcache_alter][version] = "1.1"
 projects[blockcache_alter][subdir] = "contrib"
-projects[blockcache_alter][patch][] = "https://www.drupal.org/files/patch_to_bug_1272098.patch"
+;projects[blockcache_alter][patch][] = "https://www.drupal.org/files/patch_to_bug_1272098.patch"
 
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
