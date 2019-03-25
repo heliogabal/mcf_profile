@@ -61,7 +61,7 @@ projects[colorbox][subdir] = "contrib"
 projects[colorbox_node][version] = "3.5"
 projects[colorbox_node][subdir] = "contrib"
 
-projects[ctools][version] = "1.14"
+projects[ctools][version] = "1.15"
 projects[ctools][subdir] = "contrib"
 
 projects[context][version] = "3.7"
@@ -282,7 +282,7 @@ projects[google_fonts][subdir] = "contrib"
 projects[libraries][version] = "2.5"
 projects[libraries][subdir] = "contrib"
 
-projects[link][version] = "1.5"
+projects[link][version] = "1.6"
 projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/Fixed_title_value_in_link_field_update_instance_undefined-1914286-3.patch"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
@@ -420,7 +420,7 @@ projects[service_links][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.20"
+projects[views][version] = "3.21"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.5"
@@ -537,6 +537,11 @@ projects[mcf_theme][download][url] = "https://github.com/heliogabal/mcf_theme.gi
 projects[mcf_theme][download][branch] = live
 projects[mcf_theme][options][working-copy] = TRUE
 projects[mcf_theme][subdir] = ""
+
+; adminimal
+projects[adminimal_theme][type] = "theme"
+projects[adminimal_theme][version] = "1.25"
+projects[adminimal_theme][subdir] = "contrib"
 
 ; poultry
 ;projects[poultry][type] = "theme"
