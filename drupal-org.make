@@ -10,7 +10,7 @@ projects[advagg][subdir] = "contrib"
 projects[httprl][version] = "1.14"
 patch[httprl][subdir] = "contrib"
 
-projects[addtoany][version] = "4.14"
+projects[addtoany][version] = "4.16"
 projects[addtoany][subdir] = "contrib"
 
 projects[admin_menu][version] = "3.0-rc6"
@@ -64,7 +64,7 @@ projects[colorbox_node][subdir] = "contrib"
 projects[ctools][version] = "1.15"
 projects[ctools][subdir] = "contrib"
 
-projects[context][version] = "3.7"
+projects[context][version] = "3.10"
 projects[context][subdir] = "contrib"
 
 projects[date][version] = "2.10"
@@ -291,7 +291,7 @@ projects[title][version] = 1.0-alpha9
 projects[title][patch][] = "https://www.drupal.org/files/issues/2267251-27.patch"
 projects[title][subdir] = "contrib"
 
-projects[module_filter][version] = "2.1"
+projects[module_filter][version] = "2.2"
 projects[module_filter][subdir] = "contrib"
 
 projects[optimizedb][version] = "1.6"
@@ -324,7 +324,7 @@ projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
 ;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
-projects[tablefield][version] = "3.1"
+projects[tablefield][version] = "3.4"
 projects[tablefield][subdir] = "contrib"
 
 projects[responsive_tables_filter][version] = "1.9"
@@ -420,7 +420,7 @@ projects[service_links][subdir] = "contrib"
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
 
-projects[views][version] = "3.21"
+projects[views][version] = "3.23"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.5"

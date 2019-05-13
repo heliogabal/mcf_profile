@@ -5,7 +5,7 @@ api = "2"
 ;Use Omega8 core instead of Drupal core:
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.61.1.zip"
+projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.67.1.zip"
 
 ; include the d.o. profile base
 ;includes[] = "drupal-org.make"
