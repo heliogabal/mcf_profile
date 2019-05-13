@@ -526,6 +526,7 @@ projects[mcf_tweaks][options][working-copy] = TRUE
 projects[omega][type] = "theme"
 projects[omega][version] = "4.4"
 projects[omega][subdir] = "contrib"
+projects[omega][patch][] = "https://www.drupal.org/files/issues/omega-2492461-1-smarter-element-info-alter.patch"
 
 ;projects[mcf_theme][type] = "theme"
 ;projects[mcf_theme][version] = "2.0"
