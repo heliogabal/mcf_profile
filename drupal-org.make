@@ -73,10 +73,10 @@ projects[date][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0-rc4"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[ds][version] = "2.15"
+projects[ds][version] = "2.16"
 projects[ds][subdir] = "contrib"
 
-projects[domain][version] = "3.14"
+projects[domain][version] = "3.16"
 projects[domain][subdir] = "contrib"
 
 ;projects[domain_path][version] = "1.0-beta4"
@@ -101,10 +101,10 @@ projects[domain_views][patch] = "https://www.drupal.org/files/domain_views-fix-v
 projects[viewfield][version] = "2.1"
 projects[viewfield][subdir] = contrib
 
-projects[views_accordion][version] = "1.2"
+projects[views_accordion][version] = "1.6"
 projects[views_accordion][subdir] = contrib
 
-projects[features][version] = "2.10"
+projects[features][version] = "2.11"
 projects[features][subdir] = "contrib"
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-extra-attributes.patch
 ;projects[features][patch][] = http://drupal.org/files/1931512-menu_link-query-tag.patch
@@ -118,7 +118,7 @@ projects[features_translations][subdir] = contrib
 projects[features_extra][version] = "1.0"
 projects[features_extra][subdir] = "contrib"
 
-projects[uuid][version] = "1.2"
+projects[uuid][version] = "1.3"
 projects[uuid][subdir] = "contrib"
 
 projects[uuid_features][version] = "1.0-alpha3"
@@ -190,7 +190,7 @@ projects[jquery_ui_filter][subdir] = "contrib"
 ;projects[name][patch][] = "http://drupal.org/files/name-feature_export_error-1987018-15.patch"
 ;projects[name][patch][] = "http://drupal.org/files/name-1987018-19-features-followup.patch"
 
-projects[addressfield][version] = "1.2"
+projects[addressfield][version] = "1.3"
 projects[addressfield][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
@@ -199,15 +199,15 @@ projects[simplenews][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
-projects[media][version] = "2.21"
+projects[media][version] = "2.23"
 projects[media][subdir] = "contrib"
 ; http://drupal.org/node/1411340
 ;projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
 
-projects[media_youtube][version] = "3.7"
+projects[media_youtube][version] = "3.8"
 projects[media_youtube][subdir] = "contrib"
 
-projects[file_entity][version] = "2.20"
+projects[file_entity][version] = "2.25"
 projects[file_entity][subdir] = "contrib"
 
 projects[entity_translation][version] = "1.0"
@@ -216,7 +216,7 @@ projects[entity_translation][subdir] = "contrib"
 projects[entity_menu_links][version] = 1.0-alpha1
 projects[entity_menu_links][subdir] = contrib
 
-projects[i18n][version] = "1.24"
+projects[i18n][version] = "1.26"
 projects[i18n][subdir] = "contrib"
 ; https://drupal.org/node/1933690
 ;projects[i18n][patch][] = "http://drupal.org/files/1933690-menu_links-and-taxonomy-keys.patch"
@@ -230,7 +230,7 @@ projects[imageapi_optimize][subdir] = "contrib"
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
 
-projects[imagecache_actions][version] = "1.9"
+projects[imagecache_actions][version] = "1.11"
 projects[imagecache_actions][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.1"
@@ -324,7 +324,7 @@ projects[follow][subdir] = "contrib"
 ;https://drupal.org/node/1419474
 ;projects[follow][patch][] = "http://drupal.org/files/follow-d7-views-1419474-6_0.patch"
 
-projects[tablefield][version] = "3.4"
+projects[tablefield][version] = "3.5"
 projects[tablefield][subdir] = "contrib"
 
 projects[responsive_tables_filter][version] = "1.9"
@@ -390,7 +390,7 @@ projects[addanother][subdir] = "contrib"
 ;projects[bundle_copy][version] = "1.1"
 ;projects[bundle_copy][subdir] = "contrib"
 
-projects[wysiwyg][version] = "2.5"
+projects[wysiwyg][version] = "2.6"
 projects[wysiwyg][subdir] = "contrib"
 
 projects[float_filter][version] = "1.2"
@@ -414,7 +414,7 @@ projects[readmorecontrol][subdir] = "contrib"
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
-projects[service_links][version] = "2.3"
+projects[service_links][version] = "2.4"
 projects[service_links][subdir] = "contrib"
 
 projects[variable][version] = "2.5"
@@ -426,7 +426,7 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.5"
 projects[views_bulk_operations][subdir] = "contrib"
 
-projects[webform][version] = "4.18"
+projects[webform][version] = "4.19"
 projects[webform][subdir] = "contrib"
 
 projects[webform_ajax][version] = "1.1"
@@ -466,7 +466,7 @@ projects[boost][subdir] = "contrib"
 projects[draggableviews][version] = "2.1"
 projects[draggableviews][subdir] = "contrib"
 
-projects[charts][version] = "2.0"
+projects[charts][version] = "2.1"
 projects[charts][subdir] = "contrib"
 
 projects[mailsystem][version] = "2.35"
