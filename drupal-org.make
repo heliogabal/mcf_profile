@@ -210,7 +210,7 @@ projects[media_youtube][subdir] = "contrib"
 projects[file_entity][version] = "2.25"
 projects[file_entity][subdir] = "contrib"
 
-projects[entity_translation][version] = "1.0"
+projects[entity_translation][version] = "1.x-dev"
 projects[entity_translation][subdir] = "contrib"
 
 projects[entity_menu_links][version] = 1.0-alpha1
