@@ -288,7 +288,7 @@ projects[link][subdir] = "contrib"
 ;projects[link][patch][] = "http://drupal.org/files/link-fix-undefined-index-widget-1918850-9.patch"
 
 projects[title][version] = 1.0-beta3
-projects[title][patch][] = "https://www.drupal.org/files/issues/2267251-27.patch"
+;projects[title][patch][] = "https://www.drupal.org/files/issues/2267251-27.patch"
 projects[title][subdir] = "contrib"
 
 projects[module_filter][version] = "2.2"
